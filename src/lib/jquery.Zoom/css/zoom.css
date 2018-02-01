@@ -1,0 +1,9 @@
+.box{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}

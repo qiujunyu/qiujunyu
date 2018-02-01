@@ -1,0 +1,13 @@
+.good{
+    background: #ccc;
+    ul{
+        display:block;
+        li{
+            float: left
+            width: 100px
+            span{
+                display:hidden;
+            }
+        }
+    }
+}

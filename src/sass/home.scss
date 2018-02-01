@@ -1,0 +1,11 @@
+// 导入scss文件
+@import 'var';
+
+
+.container{
+	width:980px;
+
+	color:$mainColor;
+
+	font-size:$smallFontSize;
+}

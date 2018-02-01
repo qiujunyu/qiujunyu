@@ -1,0 +1,43 @@
+/*
+	* 语法（兼容css语法）
+		* 单行注释
+		* 多行注释
+		* 变量
+			* 格式：$变量名:值;
+			* 分类
+				* 全局
+				* 局部
+		* 
+
+	* 编译（scss => css）
+		* gulp-sass <- gulp <- npm <- nodejs
+ */
+
+
+//单行注释
+
+
+// 全局变量
+$mainColor:#58bc58;
+$pd:15px;
+
+.goods{
+	// 局部变量
+	// $pd:10px;
+
+	$pd:10px !global;//修改全局变量
+
+	padding:$pd;border:1px solid $mainColor;//10px
+}
+
+.page{
+	padding:$pd;//15px
+	background-color:#efefef;
+
+	span{display:inline-block;padding:5px;color:#666;border:1px solid #ddd;}
+}
+
+nav{
+	border-bottom:2px solid #ddd;background-color:$mainColor;
+	li{display:inline-block;padding:5px 10px;color:#666;}
+}
