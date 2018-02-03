@@ -5,13 +5,27 @@
 	<title>首页</title>
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="lib/jquery.lxCarousel/css/jquery.lxCarousel.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="lib/jquery.lxCarousel/jquery.lxCarousel.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
+	<!-- 侧边栏 -->
 	<div class="fix">
 		<ul>
-			<li style="background-position: -91px -308px;">
+			<li style="background-position: -91px -308px;" class="fix_li">
 				<a href="">联系客服</a>
 				<i></i>
+				<div class="contact">
+					<div class="contact_min">
+						<p>在线客服<img src="img/qq-close.png" alt="" /></p>
+						<a href="">
+							<img src="img/yfwcc.png" alt="" />
+						</a>
+						<img src="img/qq-tel.png" alt="" />
+					</div>
+				</div>
 			</li>
 			<li style="background-position: -335px -307px;">
 				<a href="">购物清单</a>
@@ -39,5 +53,824 @@
 			</li>
 		</ul>
 	</div>
+	<!-- 头部样式 -->
+	<header>
+		
+	</header>
+	<!-- 轮播图 -->
+	<div class="banner">
+		<div class="banner_min">
+			
+		</div>
+		<div class="sell">
+			<a href="">
+				<img src="img/sell1.png" height="195" width="180" alt="" />
+			</a>
+			<a href="">
+				<img src="img/sell3.png" height="195" width="180" alt="" />
+			</a>
+		</div>
+	</div>
+	<!-- 限时抢购 -->
+	<div class="wrap">
+		<div class="container">
+			<div class="xsqg">
+				<div class="top">
+					<i></i>
+					<span>限时抢购</span>
+				</div class="top">
+				<div class="cont">
+					<div class="item">
+						<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" /><i><span></span><b>￥10.1</b></i>
+						</a>
+						<p><a href="">匹多莫德口服液</a></p>
+						<span class="price">￥10.20</span>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/d00656e0-56a4-40d1-9df1-7ac529b9ffd05709.jpg_300x300.jpg" alt="" /><i><span></span><b>￥8.00</b></i>
+						</a>
+						<p><a href="">啊胶</a></p>
+						<span class="price">￥26.5</span>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/2acf0079-8ca3-4053-b2e5-662fd34c822c7433.jpg_300x300.jpg" alt="" /><i><span></span><b>￥426</b></i>
+						</a>
+						<p><a href="">地奥心血康</a></p>
+						<span class="price">￥888</span>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/4e6b3d0f-226b-47c1-ba86-04bdfbfe5e218436.jpg_300x300.jpg" alt="" /><i><span></span><b>￥5.90</b></i>
+						</a>
+						<p><a href="">牛黄解毒丸</a></p>
+						<span class="price">￥14.9</span>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" /><i><span></span><b>￥19.0</b></i>
+						</a>
+						<p><a href="">润肠通</a></p>
+						<span class="price">￥36.5</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 中间楼层 -->
+	<div class="lift">
+		<div id="menu">
+		    <ul>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-172px -371px"  class="l1"></i>
+		        		<span>中西药品</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-188px -371px" class="l2"></i>
+		        		<span>养生保健</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-206px -371px" class="l3"></i>
+		        		<span>医疗器械</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-228px -371px" class="l4"></i>
+		        		<span>计生用品</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-251px -371px" class="l5"></i>
+		        		<span>中药饮片</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-276px -371px" class="l6"></i>
+		        		<span>美容护肤</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="#">
+		        		<i style="background-position:-300px -371px" class="l7"></i>
+		        		<span>批发采购</span>
+		        	</a>
+		        </li>
+		    </ul>
+		</div>
+		<div class="container">
+			<div id="main">
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">1</i><i class="r">F</i>
+			    		</span>
+			    		<h2>中西药品</h2>
+			    		<div class="tnav">
+			    			<a href="">家庭常用</a>
+			    			<a href="">胃肠用药</a>
+			    			<a href="">心脑血管</a>
+			    			<a href="">五官科药</a>
+			    			<a href="">皮肤科药</a>
+			    			<a href="">呼吸系统</a>
+			    			<a href="">神经系统</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left">
+			    			<div class="big big1">
+			    				<a href="">
+			    					<img src="" alt="" />
+			    				</a>
+			    			</div>
+			    			<div class="min">
+			    				<a href=""><img src="img/zxyp-logo-1.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-2.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-3.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-4.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-5.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-6.png" alt="" /></a>
+			    			</div>
+			    		</div>
+			    		<div class="right">
+			    			<ul>
+			    				<li>
+			    					<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">匹多莫德口服液</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+								<li>
+			    					<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">润肠通便茶</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2b8743fd-6b6f-433f-a8c7-39f453a457d22118.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">雷贝拉挫钠</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2fbab1ae-08c5-4247-b83d-2ac6e01a0b247613.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">感愈胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/8ad5b960-57e5-4c79-8ad3-bfdbb3b06a268045.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">鱼石脂软膏</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/42e296ec-795a-402a-aeaf-899b704d12f11958.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">男宝胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/ae623596-aa31-4b16-a68d-366b8dd8f5a61767.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">磺酸钙片</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/aafe2110-16a0-4aa5-bb95-c4a297d90b4e5330.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">维生素D滴剂</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">2</i><i class="r">F</i>
+			    		</span>
+			    		<h2>养生保健</h2>
+			    		<div class="tnav">
+			    			<a href="">大众养生</a>
+			    			<a href="">男性保健</a>
+			    			<a href="">女性保健</a>
+			    			<a href="">中老年保健</a>
+			    			<a href="">青少年儿童</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left">
+			    			<div class="big big2">
+			    				<a href="">
+			    					<img src="" alt="" />
+			    				</a>
+			    			</div>
+			    			<div class="min">
+			    				<a href=""><img src="img/ysbj-logo-1.png" alt="" /></a>
+			    				<a href=""><img src="img/ysbj-logo-2.png" alt="" /></a>
+			    				<a href=""><img src="img/ysbj-logo-3.png" alt="" /></a>
+			    				<a href=""><img src="img/ysbj-logo-4.png" alt="" /></a>
+			    				<a href=""><img src="img/ysbj-logo-5.png" alt="" /></a>
+			    				<a href=""><img src="img/ysbj-logo-6.png" alt="" /></a>
+			    			</div>
+			    		</div>
+			    		<div class="right">
+			    			<ul>
+			    				<li>
+			    					<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">匹多莫德口服液</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+								<li>
+			    					<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">润肠通便茶</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2b8743fd-6b6f-433f-a8c7-39f453a457d22118.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">雷贝拉挫钠</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2fbab1ae-08c5-4247-b83d-2ac6e01a0b247613.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">感愈胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/8ad5b960-57e5-4c79-8ad3-bfdbb3b06a268045.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">鱼石脂软膏</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/42e296ec-795a-402a-aeaf-899b704d12f11958.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">男宝胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/ae623596-aa31-4b16-a68d-366b8dd8f5a61767.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">磺酸钙片</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/aafe2110-16a0-4aa5-bb95-c4a297d90b4e5330.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">维生素D滴剂</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">3</i><i class="r">F</i>
+			    		</span>
+			    		<h2>医疗器械</h2>
+			    		<div class="tnav">
+			    			<a href="">家庭常备</a>
+			    			<a href="">检测设备</a>
+			    			<a href="">康复设备</a>
+			    			<a href="">医疗用品</a>
+			    			<a href="">外用贴膏</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left">
+			    			<div class="big big3">
+			    				<a href="">
+			    					<img src="" alt="" />
+			    				</a>
+			    			</div>
+			    			<div class="min">
+			    				<a href=""><img src="img/ylqx-logo-1.png" alt="" /></a>
+			    				<a href=""><img src="img/ylqx-logo-2.png" alt="" /></a>
+			    				<a href=""><img src="img/ylqx-logo-3.png" alt="" /></a>
+			    				<a href=""><img src="img/ylqx-logo-4.png" alt="" /></a>
+			    				<a href=""><img src="img/ylqx-logo-5.png" alt="" /></a>
+			    				<a href=""><img src="img/ylqx-logo-6.png" alt="" /></a>
+			    			</div>
+			    		</div>
+			    		<div class="right">
+			    			<ul>
+			    				<li>
+			    					<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">匹多莫德口服液</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+								<li>
+			    					<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">润肠通便茶</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2b8743fd-6b6f-433f-a8c7-39f453a457d22118.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">雷贝拉挫钠</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2fbab1ae-08c5-4247-b83d-2ac6e01a0b247613.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">感愈胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/8ad5b960-57e5-4c79-8ad3-bfdbb3b06a268045.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">鱼石脂软膏</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/42e296ec-795a-402a-aeaf-899b704d12f11958.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">男宝胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/ae623596-aa31-4b16-a68d-366b8dd8f5a61767.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">磺酸钙片</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/aafe2110-16a0-4aa5-bb95-c4a297d90b4e5330.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">维生素D滴剂</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">4</i><i class="r">F</i>
+			    		</span>
+			    		<h2>计生用品</h2>
+			    		<div class="tnav">
+			    			<a href="">避孕用品</a>
+			    			<a href="">检测用品</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left">
+			    			<div class="big big4">
+			    				<a href="">
+			    					<img src="" alt="" />
+			    				</a>
+			    			</div>
+			    			<div class="min">
+			    				<a href=""><img src="img/jsyp-logo-1.png" alt="" /></a>
+			    				<a href=""><img src="img/jsyp-logo-2.png" alt="" /></a>
+			    				<a href=""><img src="img/jsyp-logo-3.png" alt="" /></a>
+			    				<a href=""><img src="img/jsyp-logo-4.png" alt="" /></a>
+			    				<a href=""><img src="img/jsyp-logo-5.png" alt="" /></a>
+			    				<a href=""><img src="img/jsyp-logo-6.png" alt="" /></a>
+			    			</div>
+			    		</div>
+			    		<div class="right">
+			    			<ul>
+			    				<li>
+			    					<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">匹多莫德口服液</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+								<li>
+			    					<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">润肠通便茶</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2b8743fd-6b6f-433f-a8c7-39f453a457d22118.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">雷贝拉挫钠</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2fbab1ae-08c5-4247-b83d-2ac6e01a0b247613.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">感愈胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/8ad5b960-57e5-4c79-8ad3-bfdbb3b06a268045.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">鱼石脂软膏</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/42e296ec-795a-402a-aeaf-899b704d12f11958.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">男宝胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/ae623596-aa31-4b16-a68d-366b8dd8f5a61767.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">磺酸钙片</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/aafe2110-16a0-4aa5-bb95-c4a297d90b4e5330.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">维生素D滴剂</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">5</i><i class="r">F</i>
+			    		</span>
+			    		<h2>中药饮片</h2>
+			    		<div class="tnav">
+			    			<a href="">名贵中药</a>
+			    			<a href="">中药材</a>
+			    			<a href="">中药粉末</a>
+			    			<a href="">茶</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left">
+			    			<div class="big big5">
+			    				<a href="">
+			    					<img src="" alt="" />
+			    				</a>
+			    			</div>
+			    			<div class="min">
+			    				<a href=""><img src="img/zxyp-logo-1.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-2.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-3.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-4.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-5.png" alt="" /></a>
+			    				<a href=""><img src="img/zxyp-logo-6.png" alt="" /></a>
+			    			</div>
+			    		</div>
+			    		<div class="right">
+			    			<ul>
+			    				<li>
+			    					<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">匹多莫德口服液</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+								<li>
+			    					<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">润肠通便茶</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2b8743fd-6b6f-433f-a8c7-39f453a457d22118.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">雷贝拉挫钠</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2fbab1ae-08c5-4247-b83d-2ac6e01a0b247613.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">感愈胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/8ad5b960-57e5-4c79-8ad3-bfdbb3b06a268045.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">鱼石脂软膏</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/42e296ec-795a-402a-aeaf-899b704d12f11958.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">男宝胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/ae623596-aa31-4b16-a68d-366b8dd8f5a61767.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">磺酸钙片</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/aafe2110-16a0-4aa5-bb95-c4a297d90b4e5330.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">维生素D滴剂</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">6</i><i class="r">F</i>
+			    		</span>
+			    		<h2>美容护肤</h2>
+			    		<div class="tnav">
+			    			<a href="">药妆</a>
+			    			<a href="">时尚彩妆</a>
+			    			<a href="">身体护理</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left">
+			    			<div class="big big6">
+			    				<a href="">
+			    					<img src="" alt="" />
+			    				</a>
+			    			</div>
+			    			<div class="min">
+			    				<a href=""><img src="img/mrhf-logo-1.png" alt="" /></a>
+			    				<a href=""><img src="img/mrhf-logo-2.png" alt="" /></a>
+			    				<a href=""><img src="img/mrhf-logo-3.png" alt="" /></a>
+			    				<a href=""><img src="img/mrhf-logo-4.png" alt="" /></a>
+			    				<a href=""><img src="img/mrhf-logo-5.png" alt="" /></a>
+			    				<a href=""><img src="img/mrhf-logo-6.png" alt="" /></a>
+			    			</div>
+			    		</div>
+			    		<div class="right">
+			    			<ul>
+			    				<li>
+			    					<a href=""><img src="img/b8fc8b6c-c905-4a1a-9e93-b2d10b7944b24429.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">匹多莫德口服液</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+								<li>
+			    					<a href=""><img src="img/1bd71b1a-6796-476b-aa43-2a1d640f90de2866.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">润肠通便茶</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2b8743fd-6b6f-433f-a8c7-39f453a457d22118.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">雷贝拉挫钠</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/2fbab1ae-08c5-4247-b83d-2ac6e01a0b247613.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">感愈胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/8ad5b960-57e5-4c79-8ad3-bfdbb3b06a268045.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">鱼石脂软膏</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/42e296ec-795a-402a-aeaf-899b704d12f11958.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">男宝胶囊</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/ae623596-aa31-4b16-a68d-366b8dd8f5a61767.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">磺酸钙片</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    				<li>
+			    					<a href=""><img src="img/aafe2110-16a0-4aa5-bb95-c4a297d90b4e5330.jpg_300x300.jpg" alt="" />
+									</a>
+									<p><a href="">维生素D滴剂</a></p>
+									<span class="price">￥10.20</span>
+			    				</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="Louti">
+			    	<div class="title">
+			    		<span>
+			    			<i class="l">7</i><i class="r">F</i>
+			    		</span>
+			    		<h2>批发采购</h2>
+			    		<div class="tnav">
+			    			<a href="">低价精选</a>
+			    			<a href="">优质供应商</a>
+			    		</div>
+			    	</div>
+			    	<div class="content">
+			    		<div class="left last">
+							<div class="left_btn">
+								<a href="">西药</a>
+								<a href="">中成药</a>
+								<a href="">医疗器械</a>
+							</div>
+							<div class="left_bb">
+								<h3>阳光采购  价格透明</h3>
+								<a href="">马上去采购</a>
+							</div>
+			    		</div>
+			    		<div class="last_mid">
+			    			<div class="mid_lbt"></div>
+			    			<div class="mid_item">
+			    				<a href=""><img src="img/39c282b8-b6de-40d8-a509-f35e14125b1c4888.jpg" alt="" />
+								</a>
+								<p><a href="">重感灵片</a></p>
+								<span>0.25gx15片x2板/盒</span>
+								<a href="" class="pf">查看批发价</a>
+			    			</div>
+			    			<div class="mid_item">
+			    				<a href=""><img src="img/a6e0f903-cb0b-4c6a-94e4-1e653548b2fb8127.jpg" alt="" />
+								</a>
+								<p><a href="">速效救心丸</a></p>
+								<span>40mgx60粒x2瓶/盒</span>
+								<a href="" class="pf">查看批发价</a>
+			    			</div>
+			    			<div class="mid_item">
+			    				<a href=""><img src="img/9c148c82-ce19-48fb-863c-0f6234e05ba92313.jpg" alt="" />
+								</a>
+								<p><a href="">蒲地蓝消炎片</a></p>
+								<span>0.3gx18片x3板/盒</span>
+								<a href="" class="pf">查看批发价</a>
+			    			</div>
+			    			<div class="mid_item">
+			    				<a href=""><img src="img/e8bd9a89-fe67-4a98-ae90-92ae08b1899d9297.jpg" alt="" />
+								</a>
+								<p><a href="">冠心丹参滴丸</a></p>
+								<span>40mgx10丸x15袋/盒</span>
+								<a href="" class="pf">查看批发价</a>
+			    			</div>
+			    			
+			    		</div>
+			    		<div class="last_right">
+			    			<dl>
+			    				<dt>最新采购</dt>
+			    				<dd>
+			    					<a href=""><img src="img/cg1.jpg" alt="" /></a>
+			    					<div>
+				    					<span><a href="">四环素片</a></span>
+				    					<span>0.25gx100片/瓶</span>
+				    					<span>1瓶</span>
+			    					</div>
+			    				</dd>
+			    				<dd>
+			    					<a href=""><img src="img/cg2.jpg" alt="" /></a>
+			    					<div>
+				    					<span><a href="">去痛片</a></span>
+				    					<span>100片/瓶</span>
+				    					<span>5瓶</span>
+			    					</div>
+			    				</dd>
+			    				<dd>
+			    					<a href=""><img src="img/cg3.jpg" alt="" /></a>
+			    					<div>
+				    					<span><a href="">复方阿胶浆</a></span>
+				    					<span>20mlx48支/盒</span>
+				    					<span>1盒</span>
+			    					</div>
+			    				</dd>
+			    				<dd>
+			    					<a href=""><img src="img/cg4.jpg" alt="" /></a>
+			    					<div>
+				    					<span><a href="">盐酸溴已新片</a></span>
+				    					<span>8mgx1000片/瓶</span>
+				    					<span>1瓶</span>
+			    					</div>
+			    				</dd>
+			    				<dd>
+			    					<a href=""><img src="img/cg5.jpg" alt="" /></a>
+			    					<div>
+				    					<span><a href="">六神丸</a></span>
+				    					<span>10粒x6支/盒</span>
+				    					<span>1盒</span>
+			    					</div>
+			    				</dd>
+			    			</dl>
+			    		</div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<!-- 广告 -->
+	<div class="adv">
+		<div class="container">
+			<a href="">
+				<img src="img/d6378351-3545-458a-832b-0eeeca2d40b76711.png" alt="" />
+			</a>
+		</div>	
+	</div>
+	<!-- 新闻 -->
+	<div class="newslist">
+		<div class="container">		
+			<div class="news">
+				<div class="title">
+					<h4>最新资讯</h4>
+					<a href="">更多>></a>
+				</div>
+				<div class="top">
+					<a href="" class="l"><img src="img/nophoto.png" height="120" width="180" alt="" /></a>
+					<div class="r">
+						<a href="">[食疗食补]无骨鸡爪怎样去骨头</a>
+						<p>无骨鸡爪怎样去骨头？吃过的人都知道，鸡爪上面有很多关节，想要去掉可不是...</p>
+					</div>
+				</div>
+				<ul>
+					<li style="width:345px">
+						<a href="">
+							<b>[食疗食补]</b>  蛋炒饭怎么做好吃
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<b>[食疗食补]</b>  鸡爪不能和什么一起吃
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<b>[食疗食补]</b>  白果炖鸡的做法
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<b>[食疗食补]</b>  花蛤清洗方法
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="news">
+				<div class="title">
+					<h4>阅读排行</h4>
+					<a href="">更多>></a>
+				</div>
+				<div class="top">
+					<a href="" class="l"><img src="img/nophoto.png" height="120" width="180" alt="" /></a>
+					<div class="r">
+						<a href="">[胃肠用药]三九胃泰颗粒价格贵吗6袋的</a>
+						<p>三九胃泰颗粒目前市面上的有四种规格，分别为20gx6袋/盒、2.5gx...</p>
+					</div>
+				</div>
+				<ul>
+					<li style="width:345px">
+						<a href="">
+							<b>[基本药物]</b>  中华跌打丸有什么作用？功效效果好吗？
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<b>[基本药物]</b>  云南白药酊的作用和功效有哪些？
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<b>[男性天地]</b>  动态图解析男人射精的全过程
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<b>[药物反应]</b>  盐酸左氧氟沙星片能够长期服用吗 有什么副作用
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="news">
+				<div class="title">
+					<h4>最新评论</h4>
+				</div>
+				<div class="pl">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 友情链接 -->
+	<div class="links">
+		<div class="container">
+			<div class="linksnav">
+				
+			</div>
+		</div>
+	</div>
+	<!-- 尾部 -->
+	<footer>
+		
+	</footer>
 </body>
 </html>

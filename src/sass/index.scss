@@ -1,13 +1,13 @@
 .fix{
-    overflow: hidden;
+    // overflow: hidden;
     position: fixed;
     right: 2px;
-    top: 65px;
+    top: 206px;
     background: #fff;
     width: 52px;
     z-index: 9997;
     ul{
-        overflow: hidden;
+        // overflow: hidden;
         li:first-child{
             background-color: #0cb95f;
             border-color: #0cb95f;
@@ -47,6 +47,42 @@
                 font-family: Arial;
                 opacity: .8;
             }
+            .contact{
+                position: absolute;
+                right: 51px;
+                top: -1px;
+                display: none;
+                font-size: 0;
+                padding-right: 10px;
+                .contact_min{
+                    background: #0cb95f;
+                    padding: 8px;
+                    width: 142px;
+                    p{
+                        color: #fff;
+                        line-height: 1;
+                        font-size: 12px;
+                        position: relative;
+                        img{
+                            position: absolute;
+                            top: -4px;
+                            right: 2px;
+                            cursor: pointer;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                    a{
+                        display: block;
+                        height: 35px;
+                        width: 126px;
+                        background: #fff;
+                        padding: 10px 0;
+                        text-align: center;
+                        margin-top: 8px;
+                    }
+                }
+            }
         }
         li:hover a{
             display: block;
@@ -56,6 +92,586 @@
         }
         li:hover{
             background-color: #0cb95f;
+        }
+        li:hover i{
+            display: none;
+        }
+    }
+}
+.banner{
+    width: 100%;
+    height: 390px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    z-index: 200;
+    .banner_min{
+        height: 390px;
+        border: none;
+    }
+    .sell{
+        width: 180px;
+        height: 100%;
+        position: absolute;
+        right: 150px;
+        top: 0;
+        z-index: 1000;
+    }
+}
+.wrap{
+    margin-bottom: 20px;
+    .container{
+        .xsqg{
+            margin-bottom: 10px;
+            .cont{
+                border: 1px solid #e4e4e4;
+                margin-top: 10px;
+                padding-top: 10px;
+                .item{
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 18.999%;
+                    letter-spacing: 0;
+                    height: 100%;
+                    overflow: hidden;
+                    a{
+
+                        img{
+                            display: block;
+                            height: 190px;
+                            width: 190px;
+                            margin-top: 18px;
+                            position: relative;
+                            margin: 12px auto;
+                        }
+                        i{
+                            background-color: #ff0029;
+                            display: block;
+                            width: 57px;
+                            padding-top: 47px;
+                            height: 40px;
+                            position: absolute;
+                            right: 0;
+                            top: -18px;
+                            span{
+                                display: block;
+                                width: 57px;
+                                padding-top: 47px;
+                                background: url(../img/index_save.png) no-repeat;
+                                background-position: center 5px;
+                                position: absolute;
+                                right: 0;
+                                top: 17px;
+                            }  
+                            b{
+                                position: absolute;
+                                margin-top: 18px;
+                                font-size: 13px;
+                                padding-left: 8px;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    a img:hover{
+                        transform:scale(1.2);
+                    }
+                    p{
+                        
+                        a{
+                            font-size: 14px;
+                            color: #000;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            height: 28px;
+                            line-height: 28px;
+                            display: block;
+                            text-align: center;
+                            font-size: 17px;
+                        }
+                    }
+                    .price{
+                        display:block;
+                        color: red;
+                        text-align: center;
+                        margin-top: 8px;
+                        margin-bottom: 11px;
+                        
+                    }
+                }
+            }
+            .top{
+                line-height: 27px;
+                font-size: 20px;
+                i{
+                    display: inline-block;
+                    width: 45px;
+                    height: 27px;
+                    vertical-align: middle;
+                    background: url(../img/xianshi.png) no-repeat;
+                    background-position: -100px -5px;
+                }
+                
+            }
+        }
+    }
+}
+.lift{
+    position: relative;;
+    #menu{
+        top: 65px;
+        left: 56.5px;
+        display: none;
+        position:fixed;
+        width:42px;
+        border:1px solid #e5e5e5;
+        ul{
+
+            li{
+                height: 78px;
+                width: 40px;
+                position: relative;
+                cursor: pointer;
+                a{
+                    display: block;
+                    height: 78px;
+                    width: 40px;
+                    position: relative;
+                    i{
+                        background: url(../img/icons.png);
+                        display: block;
+                        height: 24px;
+                        width: 20px;
+                        position: absolute;
+                        top: 9px;
+                        left: 10px;
+                    }
+                    span{
+                        color: #999;
+                        text-align: center;
+                        display: block;
+                        font-size: 12px;
+                        position: absolute;
+                        bottom: 10px;
+                        left: 0;
+                        line-height: 16px;
+                        padding: 0 6px;
+                    }
+                }
+            }
+            li:not(:last-child){
+                border-bottom: 1px solid #e5e5e5;
+            }
+            li:hover{
+                background: #0cb95f;
+            }
+            li:hover span{
+                color: #fff;
+            },i{
+                color: #fff;
+            }
+        }
+        .active{
+            background: #0cb95f;
+        }
+    }
+    .container{
+
+        #main{
+            
+            .Louti{
+                height: 622px;
+                margin-bottom: 20px;
+                .title{
+                    overflow:hidden;
+                    span{
+                        i{
+                            background: #0cb95f;
+                            float: left;
+                            display: block;
+                            width: 22px;
+                            height: 24px;
+                            line-height: 24px;
+                            color: #fff;
+                            font-size: 20px;
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+                        .l{
+                            text-align: right;
+                            padding-right: 4px;
+                            border-bottom-left-radius: 13px;
+                            border-top-left-radius: 13px;
+                        }
+                        .r{
+                            text-align: left;
+                            padding-left: 4px;
+                            border-bottom-right-radius: 13px;
+                            border-top-right-radius: 13px;
+                            margin-left: 2px;
+                        }
+                    }
+                    h2{
+                        float: left;
+                        font-size: 20px;
+                        padding-left: 10px;
+                    }
+                    .tnav{
+                        float: right;
+                        height: 14px;
+                        margin: 16px 0 15px;
+                        a{
+                            display: block;
+                            height: 20px;
+                            line-height: 20px;
+                            padding: 0 10px;
+                            float: right;
+                            margin-bottom: 10px;
+                            text-decoration: none;
+                            font-size: 14px;
+                            text-align: center;
+                            color: #333;
+                        }
+                        a:not(:first-child){
+                            border-right:1px solid #5e5e5e;
+                        }
+                        a:hover{
+                            background: #0cb95f;
+                            color:#fff;
+                        }
+                    }
+                }
+                .content{
+                    overflow: hidden;
+                    border: 1px solid #e5e5e5;
+                    .left{
+                        height: 580px;
+                        width: 300px;
+                        float: left;
+                        position: relative;
+                        .big{
+                            width: 300px;
+                            height: 363px;
+                            a{
+                                
+                                img{
+
+                                }
+                            }
+                        }
+                        .min{
+                            overflow: hidden;
+                            border: 1px solid #e5e5e5;
+                            margin:0 0 -1px -1px;
+                            a{
+                                display: block;
+                                float: left;
+                                width: 148px;
+                                height: 71px;
+                                border-bottom: 1px solid #e5e5e5;
+                                border-left: 1px solid #e5e5e5;
+                                img{
+
+                                }
+                            }
+                        }
+                        
+                    }                   
+                    .right{
+                        position: relative;
+                        overflow: hidden;
+                        height: 580px;
+                        ul{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            li{
+                                float: left;
+                                height: 290px;
+                                width: 222px;
+                                border-bottom: 1px solid #e5e5e5;
+                                border-right: 1px solid #e5e5e5;
+                                padding: 10px 18px 10px 18px;
+                                position: relative;
+                                a{
+                                    color: #333;
+                                    img{
+                                        width: 100%;
+                                        margin: 12px auto;
+                                    }
+                                }
+                                p{
+                                    margin: 10px 0;
+                                    text-align: center;
+                                    a{
+                                        
+                                    }
+                                }
+                                .price{
+                                    display: block;
+                                    text-align: center;
+                                    color: #e50000;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        img:hover{
+                            transform:scale(1.1);
+                        }
+                    }
+                    .last{
+                        height: 532px;
+                        background: url(../img/ea833f95-2d74-4fd7-a4b1-7cfe1e9576db6330.jpg) no-repeat;
+                        .left_btn{
+                                position: absolute;
+                                top: 316px;
+                                left: 10px;
+                            a{
+                                color: #fff;
+                                float: left;
+                                background-color: #fa8138;
+                                font-size: 14px;
+                                width: 87px;
+                                display: block;
+                                line-height: 40px;
+                                margin-left: 5px;
+                                text-align: center;
+                            }
+                            a:hover{
+                                background-color: #e55906;
+                            }
+                        }
+                        .left_bb{
+                            width: 280px;
+                            position: absolute;
+                            top: 380px;
+                            left: 10px;
+                            height: 130px;
+                            background-color: #fcf1e1;
+                            bottom: 20px;
+                            h3{
+                                font-size: 23px;
+                                padding: 20px 0 16px 0;
+                                color: #e65a07;
+                                text-align: center;
+                            }
+                            a{
+                                color: #fff;
+                                background: url(../img/butt_bg.png) repeat-x 0 0;
+                                display: block;
+                                width: 80%;
+                                margin: auto;
+                                line-height: 40px;
+                                text-decoration: none;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    .last_mid{
+                        width: 667px;
+                        float: left;
+                        .mid_lbt{
+                            border: 1px solid #e5e5e5;
+                            float: left;
+                            width: 442px;
+                            height: 266px;
+                            img{
+                                width: 442px;
+                                height: 266px;
+                            }
+                        }
+                        .mid_item{
+                            float: left;
+                            width: 221px;
+                            border-bottom: 1px solid #e5e5e5;
+                            border-right: 1px solid #e5e5e5;
+                            padding: 10px 18px 10px 18px;
+                            position: relative;
+                            height: 266px;
+                            a{
+                                font-size: 12px;
+                                color: #333;
+                                img{
+                                    width: 156px;
+                                    height: 156px;
+                                }
+                            }
+                            p{
+                                
+                                a{
+                                    font-size: 12px;
+                                    color: #333;
+                                }
+                            }
+                            span{
+                                padding: 5px 0;
+                                font-size: 12px;
+                                color: #999;
+                                display: block;
+                            }
+                            .price{
+                                font-size: 12px;
+                                color: #333;
+                            }
+                            .pf{
+                                color: #ff7400;
+                            }
+                        }
+                    }
+                    .last_right{
+                        float: left;
+                        width: 221px;
+                        border-left: 0;
+                        border-top: 0;
+                        height: 531px;
+                        dl{
+
+                            dt{
+                                line-height: 42px;
+                                height: 42px;
+                                color: #999;
+                                text-align: center;
+                                border-bottom: 1px solid #e5e5e5;
+                                margin-bottom: 2px;
+                                font-size: 12px;
+                            }
+                            dd{
+                                padding:10px;
+                                a{
+                                    vertical-align:middle;
+                                    display: inline-block;
+                                    width: 70px;
+                                    height: 70px;
+                                    color: #333;              
+                                    img{
+                                        vertical-align:middle;
+                                        width: 70px;
+                                        height: 70px;
+                                    }
+                                }
+                                div{
+                                    padding-left: 10px;
+                                    vertical-align:middle;
+                                    display:inline-block;
+                                    span{
+                                        color:#999;
+                                    }
+                                    span{
+                                        display: block;
+                                        font-size: 12px;
+                                        a{
+                                           height: 20px;                 
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            dd:not(:last-child){
+                                border-bottom: 1px solid #e5e5e5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+.adv{
+    height: 110px;
+    margin:-40px 0 10px 0;
+}
+.newslist{
+
+    .container{
+        
+        .news:nth-child(2){
+            margin: 0 23px;
+        }
+        .news{
+            width: 381px;
+            border: 1px solid #e5e5e5;
+            float: left;
+            .title{
+                overflow: hidden;
+                line-height: 40px;
+                background: #f4f4f4;
+                border-bottom: 1px solid #e5e5e5;
+                padding-left: 20px;
+                h4{
+                    font-size: 14px;
+                    float: left;
+                    width: 100px;
+                    font-weight: normal;
+                    color: #666;
+                }
+                a{
+                    float: right;
+                    color: #999;
+                    width: 60px;
+                    display: block;
+                    font-size: 14px;
+                }
+            }
+            .top{
+                height: 92px;
+                padding-top: 8px;
+                padding-bottom: 6px;
+                .l{
+                    display: block;
+                    float: left;
+                    padding: 10px 15px 0 15px;
+                    width: 100px;
+                    position: relative;
+                    img{
+                        width: 100px;
+                        height: 80px;
+                    }
+                }
+                .r{
+                    float: left;
+                    width: 230px;
+                    padding: 10px 10px 0 0;
+                    a{
+                        display: block;
+                        height: 16px;
+                        line-height: 16px;
+                        margin-left: 0;
+                        margin-right: 0;
+                        margin-top: 5px;
+                        overflow: hidden;
+                        font-weight: bold;
+                        font-size: 12px;
+                        color: #333;
+                    }
+                    p{
+                        line-height: 20px;
+                        color: #666;
+                        margin-top: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            ul{
+                padding: 5px 17px 10px;
+                li{
+                    line-height: 28px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    a{
+                        color: #666;
+                        font-size: 12px;
+                        b{
+
+                        }
+                    }
+                }
+            }
+            .pl{
+                width: 381px;
+                height: 224px;
+            }
         }
     }
 }

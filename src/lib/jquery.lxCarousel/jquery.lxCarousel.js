@@ -74,13 +74,12 @@
 					return '<li><img src="'+ url +'"/></li>';
 				}).join('\n');
 				html += `<li><img src="${opt.imgs[0]}"></li>
-					<div class="next">&rarr;</div>
-					<div class="prev">&larr;</div>
+					
 				`
 				$ul.html(html);
 
 				$this.append($ul);
-
+				
 				move();
 			} 
 
