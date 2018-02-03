@@ -1,0 +1,153 @@
+.footer .footer_top {
+  padding: 20px 0;
+  height: 178px;
+  border-top: 1px solid #e8e8e8;
+  background: #f4f4f4;
+  overflow: hidden;
+}
+
+.footer .footer_top .container {
+  margin: 0 auto 0;
+  overflow: hidden;
+}
+
+.footer .footer_top .container dl {
+  float: left;
+  width: 147px;
+}
+
+.footer .footer_top .container dl dt {
+  color: #6a6a6a;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+}
+
+.footer .footer_top .container dl dd {
+  margin-top: 6px;
+  text-align: left;
+}
+
+.footer .footer_top .container dl dd a {
+  display: block;
+  overflow: hidden;
+  color: #888;
+  text-align: left;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+.footer .footer_top .container .app {
+  margin-right: 14px;
+}
+
+.footer .footer_top .container .app dt {
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.footer .footer_top .container .app dd {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.footer .footer_top .container .app dd a {
+  display: block;
+  text-align: center;
+  color: #333;
+}
+
+.footer .footer_top .container .app dd a img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer .footer_top .container .wx dt {
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.footer .footer_top .container .wx dd {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.footer .footer_top .container .wx dd a {
+  display: block;
+  text-align: center;
+  color: #333;
+}
+
+.footer .footer_top .container .wx dd a img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer .footer_bot {
+  height: auto;
+  padding: 20px 0;
+  background: #444a50;
+  color: #959aa0;
+}
+
+.footer .footer_bot .container .qq a {
+  color: #dee5ea;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+  font-size: 12px;
+  line-height: 35px;
+}
+
+.footer .footer_bot .container .beian {
+  padding: 8px 0;
+  overflow: hidden;
+}
+
+.footer .footer_bot .container .beian span {
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  margin-right: 18px;
+}
+
+.footer .footer_bot .container .beian span a {
+  color: #959aa0;
+  font-size: 12px;
+}
+
+.footer .footer_bot .container .beian a {
+  color: #959aa0;
+  font-size: 12px;
+}
+
+.footer .footer_bot .container .beian a img {
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.footer .footer_bot .container p {
+  font-size: 12px;
+}
+
+.footer .footer_bot .container ul {
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.footer .footer_bot .container ul li {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: url("../img/icon_rz.gif") no-repeat;
+}
