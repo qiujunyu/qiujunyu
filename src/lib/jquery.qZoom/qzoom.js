@@ -21,7 +21,7 @@
                 position: 'absolute',
                 border: '1px solid #ccc',
                 background: '#ccc',
-                opacity: 0.3
+                opacity: 0.5
             });
             // 插入页面
             $zoom.appendTo($small);
@@ -36,10 +36,11 @@
                 height: $smallImg.height()*3
             });
             $big.css({
+                zIndex:999,
                 display: 'none',
                 overflow: 'hidden',
                 position: 'absolute',
-                border: '1px solid #000',
+                border: '1px solid #e5e5e5',
                 width: opt.width,
                 height: opt.height,
                 left: $(this).offset().left + $(this).width() + opt.gap,

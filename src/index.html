@@ -5,9 +5,9 @@
 	<title>首页</title>
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
-	<link rel="stylesheet" type="text/css" href="lib/jquery.lxCarousel/css/jquery.lxCarousel.css" />
+	<link rel="stylesheet" type="text/css" href="lib/jquery.qCarousel/css/jquery.qCarousel.css" />
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="lib/jquery.lxCarousel/jquery.lxCarousel.js"></script>
+	<script type="text/javascript" src="lib/jquery.qCarousel/jquery.qCarousel.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
@@ -19,7 +19,7 @@
 				<i></i>
 				<div class="contact">
 					<div class="contact_min">
-						<p>在线客服<img src="img/qq-close.png" alt="" /></p>
+						<p>在线客服<img src="img/qq-close.png" alt="" id="f-cls"/></p>
 						<a href="">
 							<img src="img/yfwcc.png" alt="" />
 						</a>
@@ -35,13 +35,19 @@
 				<a href="">同店购买</a>
 				<i></i>
 			</li>
-			<li style="background-position: -188px -307px;">
+			<li style="background-position: -188px -307px;" class="wx_li">
 				<a href="">关注我们</a>
 				<i></i>
+				<div class="wx">
+					<img src="img/wxsmall.png" height="80" width="80" alt="" />
+				</div>
 			</li>
-			<li style="background-position: -121px -358px;">
+			<li style="background-position: -121px -358px;" class="app_li">
 				<a href="">手机APP</a>
 				<i></i>
+				<div class="app">
+					<img src="img/app80.png" height="80" width="80" alt="" />
+				</div>
 			</li>
 			<li style="background-position: -236px -307px">
 				<a href="">意见反馈</a>
@@ -52,6 +58,35 @@
 				<i></i>
 			</li>
 		</ul>
+	</div>
+	<!-- 吸顶 -->
+	<div class="fix_top">
+		<div class="container">
+			<div class="logo"></div>
+			<form action="">
+                <span>
+                    <a href="javascript:void(0);">商品</a>
+                    <i class="current"></i>
+                </span>
+                <ul class="search_menu">
+                    <li>
+                        <a href="">商品</a>
+                        <i class="current"></i>
+                    </li>
+                    <li>
+                        <a href="">商家</a>
+                    </li>
+                    <li>
+                        <a href="">厂家</a>
+                    </li>
+                    <li>
+                        <a href="">医院</a>
+                    </li>
+                </ul>
+                <input type="text" placeholder="请输入批准文号、通用名、商品名、症状"/>
+                <button class="submit">搜索</button>
+            </form>
+		</div>
 	</div>
 	<!-- 头部样式 -->
 	<header>
@@ -855,7 +890,36 @@
 					<h4>最新评论</h4>
 				</div>
 				<div class="pl">
-					
+					<ul>
+		                <li>
+		                    <img src="img/m7.png" alt="" />
+		                    <p>发货很快！</p>
+		                </li>
+		                <li>
+		                    <img src="img/m17.png" alt="" />
+		                    <p>很满意，下次还会来。</p>
+		                </li>
+		                <li>
+		                    <img src="img/m23.png" alt="" />
+		                    <p>很满意，下次还会来。</p>
+		                </li>
+		                <li>
+		                    <img src="img/m11.png" alt="" />
+		                    <p>发货很快！</p>
+		                </li>
+		                <li>
+		                    <img src="img/m23.png" alt="" />
+		                    <p>发货很快！</p>
+		                </li>
+		                <li>
+		                    <img src="img/m23.png" alt="" />
+		                    <p>很好哦！</p>
+		                </li>
+		                <li>
+		                    <img src="img/m7.png" alt="" />
+		                    <p>很满意，下次还会来。</p>
+		                </li>
+		            </ul>
 				</div>
 			</div>
 		</div>
@@ -864,7 +928,100 @@
 	<div class="links">
 		<div class="container">
 			<div class="linksnav">
-				
+				<span class="hot-btn">热门商品</span>
+				<span class="yq-btn">友情链接</span>
+			</div>
+			<div class="tab">
+				<div class="hot-goods">
+					<a href="//www.yaofangwang.com/medicine-300692.html" target="_blank" title="青云山">青云山</a>
+					<a href="//www.yaofangwang.com/medicine-551430.html" target="_blank" title="寿牌">寿牌</a>
+					<a href="//www.yaofangwang.com/medicine-277837.html" target="_blank" title="水林佳">水林佳</a>
+					<a href="//www.yaofangwang.com/medicine-311074.html" target="_blank" title="芪冬颐心口服液">芪冬颐心口服液</a>
+					<a href="//www.yaofangwang.com/medicine-192088.html" target="_blank" title="仙阁">仙阁</a>
+					<a href="//www.yaofangwang.com/medicine-635071.html" target="_blank" title="999">999</a>
+					<a href="//www.yaofangwang.com/medicine-554847.html" target="_blank" title="柏美星">柏美星</a>
+					<a href="//www.yaofangwang.com/medicine-200640.html" target="_blank" title="健得">健得</a>
+					<a href="//www.yaofangwang.com/medicine-196330.html" target="_blank" title="心脑联通胶囊">心脑联通胶囊</a>
+					<a href="//www.yaofangwang.com/medicine-296704.html" target="_blank" title="迪康">迪康</a>
+					<a href="//www.yaofangwang.com/medicine-600400.html" target="_blank" title="阿乐">阿乐</a>
+					<a href="//www.yaofangwang.com/medicine-176357.html" target="_blank" title="河西">河西</a>
+					<a href="//www.yaofangwang.com/medicine-569683.html" target="_blank" title="维阿露">维阿露</a>
+					<a href="//www.yaofangwang.com/medicine-641950.html" target="_blank" title="鳖甲煎丸">鳖甲煎丸</a>
+					<a href="//www.yaofangwang.com/medicine-231791.html" target="_blank" title="东宝">东宝</a>
+					<a href="//www.yaofangwang.com/medicine-202304.html" target="_blank" title="东方草">东方草</a>
+					<a href="//www.yaofangwang.com/medicine-269755.html" target="_blank" title="资生丸">资生丸</a>
+					<a href="//www.yaofangwang.com/medicine-548186.html" target="_blank" title="勃然">勃然</a>
+					<a href="//www.yaofangwang.com/medicine-171772.html" target="_blank" title="步长">步长</a>
+					<a href="//www.yaofangwang.com/medicine-568135.html" target="_blank" title="便通胶囊">便通胶囊</a>
+					<a href="//www.yaofangwang.com/medicine-188002.html" target="_blank" title="糖尿灵片">糖尿灵片</a>
+					<a href="//www.yaofangwang.com/medicine-224919.html" target="_blank" title="世一堂">世一堂</a>
+					<a href="//www.yaofangwang.com/medicine-574651.html" target="_blank" title="弘泰">弘泰</a>
+					<a href="//www.yaofangwang.com/medicine-296166.html" target="_blank" title="立庆">立庆</a>
+					<a href="//www.yaofangwang.com/medicine-203508.html" target="_blank" title="番泻叶颗粒">番泻叶颗粒</a>
+					<a href="//www.yaofangwang.com/medicine-209420.html" target="_blank" title="华蟾素口服液">华蟾素口服液</a>
+					<a href="//www.yaofangwang.com/medicine-266202.html" target="_blank" title="清脑复神液">清脑复神液</a>
+		        </div>
+	        	<div class="yqlj" style="display:none;">
+			            <a href="http://www.yaofangwang.com/yao/" target="_blank" >药品大全</a>
+			            <a href="http://www.360haoyao.com/" target="_blank" >360好药</a>
+			            <a href="http://www.job120.com/" target="_blank" >中国卫生人才网</a>
+			            <a href="http://www.800pharm.com/" target="_blank" >八百方网上药店</a>
+			            <a href="http://www.baxsun.cn/" target="_blank" >百姓阳光大药房</a>
+			            <a href="http://www.chinamsr.com/" target="_blank" >中国医药联盟</a>
+			            <a href="http://www.xingshitang.com.cn/" target="_blank" >北京兴事堂药店</a>
+			            <a href="http://yao.xywy.com/" target="_blank" >药品网</a>
+			            <a href="http://www.qiuyi.cn/" target="_blank" >求医网</a>
+			            <a href="http://www.21yod.com/" target="_blank" >21药店</a>
+			            <a href="http://www.zhzyw.org" target="_blank" >中华中医网</a>
+			            <a href="http://www.chemdrug.com/" target="_blank" >药品资讯网</a>
+			            <a href="http://www.baicaolu.com/" target="_blank" >中药大全</a>
+			            <a href="http://www.mingyihui.net/" target="_blank" >名医汇</a>
+			            <a href="http://www.kzj365.com/" target="_blank" >康之家网上药店</a>
+			            <a href="http://you.ctrip.com/" target="_blank" >携程攻略社区</a>
+			            <a href="http://www.j1.com/" target="_blank" >网上药店</a>
+			            <a href="http://yp.120ask.com/" target="_blank" >药品信息</a>
+			            <a href="http://zyk.99.com.cn/" target="_blank" >中医网站</a>
+			            <a href="http://ypk.familydoctor.com.cn/" target="_blank" >药品库</a>
+			            <a href="http://www.36683.com/" target="_blank" >健康知识</a>
+			            <a href="http://food.39.net/" target="_blank" >39饮食</a>
+			            <a href="http://www.12yao.com/" target="_blank" >十二药网</a>
+			            <a href="http://iask.sina.com.cn/c/140.html" target="_blank" >爱问中医</a>
+			            <a href="http://www.360yao.com/" target="_blank" >恒牛医药网</a>
+			            <a href="http://www.wenbing.cn/" target="_blank" >问病网</a>
+			            <a href="http://www.xubei.com/" target="_blank" >虚贝网</a>
+			            <a href="http://www.nzjsw.com/" target="_blank" >健身吧</a>
+			            <a href="http://www.zyccst.com/" target="_blank" >中药材</a>
+			            <a href="http://www.caipiaogu.com/" target="_blank" >养生</a>
+			            <a href="http://www.zhongyoo.com/" target="_blank" >中草药网</a>
+			            <a href="http://www.99xr.com/" target="_blank" >久久养生网</a>
+			            <a href="http://www.yaozs.com/" target="_blank" >医药招商</a>
+			            <a href="http://www.yp900.com/" target="_blank" >快易捷药品网</a>
+			            <a href="http://zx.xywy.com/" target="_blank" >整形美容</a>
+			            <a href="http://ypk.39.net/" target="_blank" >39药品通</a>
+			            <a href="http://51ttyy.com/" target="_blank" >天天营养</a>
+			            <a href="http://www.bozhong.com/" target="_blank" >备孕</a>
+			            <a href="http://www.vodjk.com/" target="_blank" >健康一线</a>
+			            <a href="http://www.xinyao.com.cn/" target="_blank" >网上买药</a>
+			            <a href="http://www.jiankangzu.com/" target="_blank" >健康网</a>
+			            <a href="http://www.baiji.com.cn/" target="_blank" >网上药店</a>
+			            <a href="http://www.120job.cn" target="_blank" >中国医疗人才网</a>
+			            <a href="http://www.ysbfb.cn" target="_blank" >养生保健</a>
+			            <a href="http://www.ziyimall.com" target="_blank" >保健品网上商城</a>
+			            <a href="http://m.yaofangwang.com/catalog-1.html" target="_blank" >中西药品</a>
+			            <a href="http://m.yaofangwang.com/catalog-2.html" target="_blank" >医疗器械</a>
+			            <a href="http://m.yaofangwang.com/catalog-3.html" target="_blank" >养身保健</a>
+			            <a href="http://m.yaofangwang.com/catalog-5.html" target="_blank" >计生用品</a>
+			            <a href="http://m.yaofangwang.com/catalog-6.html" target="_blank" >中药饮片</a>
+			            <a href="http://m.yaofangwang.com/catalog-4.html" target="_blank" >美容护肤</a>
+			            <a href="http://www.shenghuoqq.com" target="_blank" >生活养生网</a>
+			            <a href="http://www.yangsheng.com" target="_blank" >养生之道</a>
+			            <a href="http://m.ickd.cn/shentong.html" target="_blank"  rel="nofollow" >申通快递</a>
+			            <a href="http://www.kmzyw.com.cn" target="_blank" >药材网</a>
+			            <a href="http://www.yaofangwang.com/bk/" target="_blank" >健康百科</a>
+			            <a href="http://www.yaofangwang.com/ask/" target="_blank" >医药问答</a>
+			            <a href="http://www.yidianling.com" target="_blank" >心理咨询</a>
+			            <a href="http://www.cabxw.com/" target="_blank" >阿胶的功效与作用</a>
+		        </div>
 			</div>
 		</div>
 	</div>

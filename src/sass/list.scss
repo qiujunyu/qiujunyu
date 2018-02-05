@@ -1,0 +1,364 @@
+#wrap{
+
+    .container{
+
+        .left{
+            float: left;
+            margin: 20px 20px 0 0;
+            width: 220px;
+            .all_list{
+                overflow:hidden;
+                border: 1px solid #e5e5e5;
+                h4{
+                    padding: 0 20px;
+                    height: 40px;
+                    border-bottom: 1px solid #ddd;
+                    background: #f4f4f4;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+                ul{
+
+                    li{
+                        float: left;
+                        h5{
+                            padding: 0 30px;
+                            width: 220px;
+                            height: 40px;
+                            border-top: 1px solid #e5e5e5;
+                            background: none repeat scroll 0 0 #f4f4f4;
+                            font-weight: normal;
+                            font-size: 14px;
+                            font-family: "\5FAE\8F6F\96C5\9ED1";
+                            line-height: 40px;
+                            cursor: pointer;
+                            a{
+                                color: #333;
+                            }
+                            i{
+                                float: left;
+                                display: inline-block;
+                                margin: 13px 10px 10px 0;
+                                width: 15px;
+                                height: 15px;
+                                background-image: url(../img/icons.png);
+                                background-position: -214px -83px;
+                            }
+                        }
+                        .items{
+                            display: none;
+                            padding: 10px 22px;
+                            overflow: hidden;
+                            a{
+                                display: block;
+                                float: left;
+                                height: 28px;
+                                line-height: 28px;
+                                overflow: hidden;
+                                padding: 0 10px;
+                                width: 60px;
+                                text-align: center;
+                                text-decoration: none;
+                                margin: 0 1px 1px 0;
+                                font-size: 12px;
+                                color:#333;
+                            }
+                            a:hover{
+                                background: #0cb95f;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            .hot_sale{
+                overflow:hidden;
+                margin: 20px 0;
+                border: 1px solid #e5e5e5;
+                h4{
+                    padding: 0 20px;
+                    height: 40px;
+                    border-bottom: 1px solid #ddd;
+                    background: #f4f4f4;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+                ul{
+
+                    li{
+                        float: left;
+                        display: block;
+                        padding: 10px 20px;
+                        border-bottom: 1px solid #e5e5e5;
+                        a{
+                            display: block;
+                            text-align: center;
+                            height: 160px;
+                            width: 178px;
+                            font-size: 12px;
+                            color: #333;
+                            img{
+                                height: 160px;
+                                width: 178px;
+                            }
+                        }
+                        .st{
+                            display: block;
+                            overflow: hidden;
+                            margin-top: 5px;
+                            height: 20px;
+                            line-height: 18px;
+                            // _width: 178px;
+                            text-align: left;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                        .xq{
+                            padding: 5px 0;
+                            color: #999;
+                            line-height: 20px;
+                            height: 25px;
+                            overflow: hidden;
+                        }
+                        .use{
+                            padding: 2px 0;
+                            color: #f90;
+                            line-height: 20px;
+                        }
+                        .price{
+                            height: 24px;
+                            color: #e50000;
+                            text-align: center;
+                            font-style: normal;
+                            font-family: Arial;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            float: left;
+            width: 950px;
+            margin-top: 20px;
+            .right_nav{
+                min-height: 24px;
+                color: #aaa;
+                text-align: left;
+                line-height: 24px;  
+                a{
+                    float: left;
+                    display: block;
+                    color: #333;
+                    font-size: 14px;
+                }
+                span{
+                    color: #333;
+                    font-size: 14px;
+                }
+                i{
+                    float: left;
+                    margin: 0 5px;
+                }
+            }
+            .select{
+                margin-top: 20px;
+                border: 1px solid #ddd;
+                line-height: 24px;
+                .top{
+                    padding: 0 10px;
+                    height: 40px;
+                    background: #f4f4f4;
+                    line-height: 40px;
+                    .num{
+                        float: right;
+                        color: #999;
+                        font-size: 12px;
+                    }
+                }
+                .items{
+                    padding: 5px 10px;
+                    background: #fff;
+                    li{
+                        position: relative;
+                        overflow: hidden;
+                        padding: 6px 0 6px 100px;
+                        border-bottom: 1px solid #efefef;
+                        line-height: 16px;
+                        span{
+                            position: absolute;
+                            top: 12px;
+                            left: 0;
+                            float: none;
+                            padding: 0;
+                            width: 70px;
+                            height: 16px;
+                            color: #999;
+                            text-align: right;
+                            line-height: 16px;
+                            font-size:12px;
+                        }
+                        a{
+                            float: left;
+                            overflow: hidden;
+                            margin: 0 11px 0 0;
+                            padding: 7px 10px;
+                            width: 62px;
+                            white-space: nowrap;
+                            font-size: 12px;
+                            color: #333;
+                        }
+                        a:hover{
+                            color: #0cb95f;
+                        }
+                    }
+                }
+            }
+            .filter{
+                padding: 0 10px;
+                height: 40px;
+                border: 1px solid #e5e5e5;
+                background: #f4f4f4;
+                line-height: 24px;
+                margin-top: 20px;
+                .paixv{
+                    float: left;
+                    margin: 7px 15px 0 0;
+                    vertical-align: middle;
+                    a{
+                        background: #fff;
+                        position: relative;
+                        float: left;
+                        display: block;
+                        overflow: hidden;
+                        padding: 0 15px 0 15px;
+                        height: 22px;
+                        border: 1px solid #e5e5e5;
+                        border-left: 0;
+                        background: #fff;
+                        line-height: 22px;
+                        font-size: 12px;
+                        color: #333;
+                        i{
+
+                        }
+                    }
+                }
+                .ck{
+                    position: relative;
+                    float: left;
+                    padding-left: 20px;
+                    cursor: pointer;
+                    margin-top: 7px;
+                    .ckbtn{
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        background-position: -79px -25px;
+                        vertical-align: middle;
+                        position: relative;
+                        background-image: url(../img/icons.png);
+                        i{
+
+                        }
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                    .ckbtn_all{
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        background-position: -79px -25px;
+                        vertical-align: middle;
+                        position: relative;
+                        background-image: url(../img/icons.png);
+                        margin-left: 10px;
+                        i{
+
+                        }
+                    }
+                }
+                .page{
+                    float: right;
+                    margin-top: 8px;
+                    height: 25px;
+                    line-height: 25px;
+                    i{
+                        float: left;
+                        display: block;
+                        width: 25px;
+                        height: 25px;
+                        background: url(../img/icons.png) no-repeat;
+                    }
+                    .p_prev{
+                        background-position: -202px -0;
+                    }
+                    .p_next{
+                        background-position: -280px -0;
+                    }
+                    span{
+                        float: left;
+                        font-size: 12px;
+                        margin: 0 5px;
+                    }
+                }
+                .goods_list{
+                    height: 3160px;
+                    width: 950px;
+                }
+            }
+        }
+        .links{
+            float: left;
+            border: 1px solid #e5e5e5;
+            margin: 20px 0;
+            .container{
+                .lnav{
+                    border-bottom: 1px solid #e5e5e5;
+                    line-height: 40px;
+                    height: 40px;
+                    background: #f4f4f4;
+                    a{
+                        float: left;
+                        width: 137px;
+                        font-size: 14px;
+                        display: block;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        color: #333;
+                        text-decoration: none;
+                    }
+                    .active{
+                        background: #fff;
+                    }
+                }
+                .item{
+                    padding: 20px 35px;
+                    overflow: hidden;
+                    a{
+                        display: block;
+                        float: left;
+                        margin: 10px 0;
+                        width: 110px;
+                        color: #999;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        font-size: 12px;
+                    }
+                    a:hover{
+                        color: #0cb95f;
+                    }
+                }  
+                .item:not(:first-child){
+                    display:none;
+                }
+            }
+        }
+    }
+}

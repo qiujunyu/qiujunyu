@@ -1,0 +1,393 @@
+#wrap .container .left {
+  float: left;
+  margin: 20px 20px 0 0;
+  width: 220px;
+}
+
+#wrap .container .left .all_list {
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+
+#wrap .container .left .all_list h4 {
+  padding: 0 20px;
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+  background: #f4f4f4;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+#wrap .container .left .all_list ul li {
+  float: left;
+}
+
+#wrap .container .left .all_list ul li h5 {
+  padding: 0 30px;
+  width: 220px;
+  height: 40px;
+  border-top: 1px solid #e5e5e5;
+  background: none repeat scroll 0 0 #f4f4f4;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 40px;
+  cursor: pointer;
+}
+
+#wrap .container .left .all_list ul li h5 a {
+  color: #333;
+}
+
+#wrap .container .left .all_list ul li h5 i {
+  float: left;
+  display: inline-block;
+  margin: 13px 10px 10px 0;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/icons.png);
+  background-position: -214px -83px;
+}
+
+#wrap .container .left .all_list ul li .items {
+  display: none;
+  padding: 10px 22px;
+  overflow: hidden;
+}
+
+#wrap .container .left .all_list ul li .items a {
+  display: block;
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  padding: 0 10px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 1px 1px 0;
+  font-size: 12px;
+  color: #333;
+}
+
+#wrap .container .left .all_list ul li .items a:hover {
+  background: #0cb95f;
+  color: #fff;
+}
+
+#wrap .container .left .hot_sale {
+  overflow: hidden;
+  margin: 20px 0;
+  border: 1px solid #e5e5e5;
+}
+
+#wrap .container .left .hot_sale h4 {
+  padding: 0 20px;
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+  background: #f4f4f4;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+#wrap .container .left .hot_sale ul li {
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#wrap .container .left .hot_sale ul li a {
+  display: block;
+  text-align: center;
+  height: 160px;
+  width: 178px;
+  font-size: 12px;
+  color: #333;
+}
+
+#wrap .container .left .hot_sale ul li a img {
+  height: 160px;
+  width: 178px;
+}
+
+#wrap .container .left .hot_sale ul li .st {
+  display: block;
+  overflow: hidden;
+  margin-top: 5px;
+  height: 20px;
+  line-height: 18px;
+  text-align: left;
+}
+
+#wrap .container .left .hot_sale ul li p {
+  font-size: 12px;
+}
+
+#wrap .container .left .hot_sale ul li .xq {
+  padding: 5px 0;
+  color: #999;
+  line-height: 20px;
+  height: 25px;
+  overflow: hidden;
+}
+
+#wrap .container .left .hot_sale ul li .use {
+  padding: 2px 0;
+  color: #f90;
+  line-height: 20px;
+}
+
+#wrap .container .left .hot_sale ul li .price {
+  height: 24px;
+  color: #e50000;
+  text-align: center;
+  font-style: normal;
+  font-family: Arial;
+  line-height: 24px;
+}
+
+#wrap .container .right {
+  float: left;
+  width: 950px;
+  margin-top: 20px;
+}
+
+#wrap .container .right .right_nav {
+  min-height: 24px;
+  color: #aaa;
+  text-align: left;
+  line-height: 24px;
+}
+
+#wrap .container .right .right_nav a {
+  float: left;
+  display: block;
+  color: #333;
+  font-size: 14px;
+}
+
+#wrap .container .right .right_nav span {
+  color: #333;
+  font-size: 14px;
+}
+
+#wrap .container .right .right_nav i {
+  float: left;
+  margin: 0 5px;
+}
+
+#wrap .container .right .select {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  line-height: 24px;
+}
+
+#wrap .container .right .select .top {
+  padding: 0 10px;
+  height: 40px;
+  background: #f4f4f4;
+  line-height: 40px;
+}
+
+#wrap .container .right .select .top .num {
+  float: right;
+  color: #999;
+  font-size: 12px;
+}
+
+#wrap .container .right .select .items {
+  padding: 5px 10px;
+  background: #fff;
+}
+
+#wrap .container .right .select .items li {
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0 6px 100px;
+  border-bottom: 1px solid #efefef;
+  line-height: 16px;
+}
+
+#wrap .container .right .select .items li span {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  float: none;
+  padding: 0;
+  width: 70px;
+  height: 16px;
+  color: #999;
+  text-align: right;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+#wrap .container .right .select .items li a {
+  float: left;
+  overflow: hidden;
+  margin: 0 11px 0 0;
+  padding: 7px 10px;
+  width: 62px;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #333;
+}
+
+#wrap .container .right .select .items li a:hover {
+  color: #0cb95f;
+}
+
+#wrap .container .right .filter {
+  padding: 0 10px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  background: #f4f4f4;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+#wrap .container .right .filter .paixv {
+  float: left;
+  margin: 7px 15px 0 0;
+  vertical-align: middle;
+}
+
+#wrap .container .right .filter .paixv a {
+  background: #fff;
+  position: relative;
+  float: left;
+  display: block;
+  overflow: hidden;
+  padding: 0 15px 0 15px;
+  height: 22px;
+  border: 1px solid #e5e5e5;
+  border-left: 0;
+  background: #fff;
+  line-height: 22px;
+  font-size: 12px;
+  color: #333;
+}
+
+#wrap .container .right .filter .ck {
+  position: relative;
+  float: left;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+#wrap .container .right .filter .ck .ckbtn {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-position: -79px -25px;
+  vertical-align: middle;
+  position: relative;
+  background-image: url(../img/icons.png);
+}
+
+#wrap .container .right .filter .ck span {
+  font-size: 12px;
+}
+
+#wrap .container .right .filter .ck .ckbtn_all {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-position: -79px -25px;
+  vertical-align: middle;
+  position: relative;
+  background-image: url(../img/icons.png);
+  margin-left: 10px;
+}
+
+#wrap .container .right .filter .page {
+  float: right;
+  margin-top: 8px;
+  height: 25px;
+  line-height: 25px;
+}
+
+#wrap .container .right .filter .page i {
+  float: left;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(../img/icons.png) no-repeat;
+}
+
+#wrap .container .right .filter .page .p_prev {
+  background-position: -202px -0;
+}
+
+#wrap .container .right .filter .page .p_next {
+  background-position: -280px -0;
+}
+
+#wrap .container .right .filter .page span {
+  float: left;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+#wrap .container .right .filter .goods_list {
+  height: 3160px;
+  width: 950px;
+}
+
+#wrap .container .links {
+  float: left;
+  border: 1px solid #e5e5e5;
+  margin: 20px 0;
+}
+
+#wrap .container .links .container .lnav {
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 40px;
+  height: 40px;
+  background: #f4f4f4;
+}
+
+#wrap .container .links .container .lnav a {
+  float: left;
+  width: 137px;
+  font-size: 14px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+#wrap .container .links .container .lnav .active {
+  background: #fff;
+}
+
+#wrap .container .links .container .item {
+  padding: 20px 35px;
+  overflow: hidden;
+}
+
+#wrap .container .links .container .item a {
+  display: block;
+  float: left;
+  margin: 10px 0;
+  width: 110px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+#wrap .container .links .container .item a:hover {
+  color: #0cb95f;
+}
+
+#wrap .container .links .container .item:not(:first-child) {
+  display: none;
+}

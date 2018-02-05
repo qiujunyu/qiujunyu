@@ -96,6 +96,44 @@
         li:hover i{
             display: none;
         }
+        .wx{
+            position: absolute;
+            right: 73px;
+            top: 0;
+            background: #fff;
+            padding: 15px 20px;
+            border: 1px solid #e5e5e5;
+            color: #333;
+            line-height: 24px;
+            width: 155px;
+            display: block;
+            height: 198px;
+            text-align: center;
+            display: none;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .app{
+            position: absolute;
+            right: 73px;
+            top: 0;
+            background: #fff;
+            padding: 15px 20px;
+            padding-top: 32px;
+            border: 1px solid #e5e5e5;
+            color: #333;
+            line-height: 24px;
+            width: 155px;
+            display: block;
+            height: 156px;
+            text-align: center;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
     }
 }
 .banner{
@@ -113,7 +151,7 @@
         width: 180px;
         height: 100%;
         position: absolute;
-        right: 150px;
+        right: 141px;
         top: 0;
         z-index: 1000;
     }
@@ -583,7 +621,7 @@
     margin:-40px 0 10px 0;
 }
 .newslist{
-
+    overflow: hidden;
     .container{
         
         .news:nth-child(2){
@@ -671,6 +709,196 @@
             .pl{
                 width: 381px;
                 height: 224px;
+                overflow: hidden;
+                position: relative;
+                ul{
+                    position: absolute;
+                    // left:0;
+                    // top: 0;
+                    li{
+                        color: #666;
+                        clear: both;
+                        display: block;
+                        overflow: hidden;
+                        width: 360px;
+                        height: 113px;
+                        line-height: 113px;
+                        overflow: hidden;
+                        border-bottom:1px dashed #e5e5e5;
+                        img{
+                            border: 1px solid #f4f4f4;
+                            border-radius: 50px;
+                            height: 50px;
+                            width: 50px;
+                        }
+                        p{
+                            font-size: 12px;
+                            display: inline;
+                            float: left;
+                            margin-left: 20px;
+                            width: 276px;
+                            position: relative;
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.links{
+    overflow: hidden;
+    margin: 20px 0;
+    .container{
+        overflow: hidden;
+        border: 1px solid #e5e5e5;
+        .linksnav{
+            border-bottom: 1px solid #e5e5e5;
+            line-height: 39px;
+            height: 40px;
+            background: #f4f4f4;
+            span{
+                background: #f4f4f4;
+                display: inline-block;
+                width: 137px;
+                text-align: center;
+            }
+            .f-active{
+                background: #fff;
+                border-bottom: 1px solid #fff;
+            }
+        }
+        .tab{
+
+            .hot-goods{
+                overflow: hidden;
+                padding: 20px 35px;
+                a{
+                    display: block;
+                    float: left;
+                    margin: 10px 0;
+                    width: 110px;
+                    color: #999;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    font-size: 12px;
+                }
+            }
+            .yqlj{
+                overflow: hidden;
+                padding: 20px 35px;
+                a{
+                    display: block;
+                    float: left;
+                    margin: 10px 0;
+                    width: 110px;
+                    color: #999;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+.fix_top{
+    display: none;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    // display: none;
+    z-index: 100000;
+    background: #000;
+    opacity: .8;
+    .container{
+        position: relative;
+        .logo{
+            background: url(../img/logo2.png);
+            width: 160px;
+            height: 40px;
+            display: block;
+            position: absolute;
+            left: 10px;
+            top: 7px;
+        }
+        form{
+            background: #fff;
+            position:absolute;
+            top: 10px;
+            left: 300px;
+            width: 542px;
+            height: 36px;
+            line-height: 36px;
+            border: 2px solid #0cb95f;
+            .current{
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 11px;
+                right: 8px;
+                background: url(../img/icons.png) no-repeat;
+                background-position: -109px 1px;
+            }
+            span{
+                display: block;
+                position: absolute;
+                left:0;
+                width: 80px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                font-size: 12px;
+            }
+            .search_menu{
+                display: none;
+                width: 80px;
+                text-align: center;
+                border: 1px solid #ccc;
+                background: #fff;
+                li{
+                    height: 30px;
+                    line-height: 30px;
+                    a{
+                        font-size: 12px;
+                        color: #000;
+                    }
+                }
+            }
+            input{
+                margin-left: 82px;
+                width: 350px;
+                height: 25px;
+                padding:5px 10px;
+                vertical-align: middle;
+            }
+            .submit{
+                float: right;
+                width: 90px;
+                height: 33px;
+                background: #0cb95f;
+                font-size: 14px;
+                color: #fff;
+                cursor: pointer;
+                vertical-align: middle;
+            }
+        }
+        .hot{
+            margin-top: 10px;
+            li{
+                
+                float: left;
+                a{
+                    font-size: 12px;
+                    padding: 0 12px;
+                    border-right:1px solid #ccc;
+                }
+                .last{
+                    border: none;
+                }
             }
         }
     }

@@ -1,0 +1,459 @@
+@charset "UTF-8";
+#wrap .container .nav {
+  overflow: hidden;
+  padding: 15px 0;
+  min-height: 24px;
+  color: #aaa;
+  text-align: left;
+  line-height: 24px;
+}
+
+#wrap .container .nav a {
+  float: left;
+  color: #333;
+  font-size: 12px;
+  font-family: Arial,"宋体",Tahoma,Verdana,sans-serif,simsun;
+}
+
+#wrap .container .nav i {
+  float: left;
+  margin: 0 5px;
+  color: #333;
+}
+
+#wrap .container .top {
+  overflow: hidden;
+}
+
+#wrap .container .top .left {
+  float: left;
+  width: 370px;
+}
+
+#wrap .container .top .left .img_show {
+  position: relative;
+  width: 369px;
+  height: 369px;
+  border: 1px solid #e5e5e5;
+  display: block;
+  position: relative;
+}
+
+#wrap .container .top .left .img_show img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap .container .top .left .img_show p {
+  bottom: 0;
+  color: #999;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: 998;
+  text-align: center;
+  line-height: 32px;
+  background: #fff;
+  font-size: 12px;
+}
+
+#wrap .container .top .left .img_min {
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  margin: 10px 0;
+  height: 66px;
+}
+
+#wrap .container .top .left .img_min ul {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 64px;
+  display: block;
+}
+
+#wrap .container .top .left .img_min ul li {
+  vertical-align: middle;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #e5e5e5;
+}
+
+#wrap .container .top .left .img_min ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap .container .top .left .img_min ul li:not(:first-child) {
+  margin-left: 8px;
+}
+
+#wrap .container .top .left .img_min span {
+  position: absolute;
+  top: 13px;
+  display: block;
+  width: 23px;
+  height: 42px;
+  background: url(../img/icons.png);
+}
+
+#wrap .container .top .left .img_min .prev {
+  background-position: -4px -45px;
+  left: 0;
+}
+
+#wrap .container .top .left .img_min .next {
+  background-position: -3px -90px;
+  right: 0;
+}
+
+#wrap .container .top .left .s_num {
+  padding: 5px 0;
+  height: 28px;
+}
+
+#wrap .container .top .left .s_num p {
+  float: left;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+#wrap .container .top .right {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  width: 800px;
+}
+
+#wrap .container .top .right h1 {
+  margin-bottom: 20px;
+  padding: 0 20px 0 0;
+  font-size: 18px;
+}
+
+#wrap .container .top .right .main .price {
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+#wrap .container .top .right .main .price span {
+  margin: 18px 0 18px 13px;
+  height: 31px;
+  line-height: 31px;
+  float: left;
+  width: 64px;
+  border: 0;
+  color: #999;
+  text-align: right;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+#wrap .container .top .right .main .price .money {
+  margin: 18px 0 15px 12px;
+  height: 29px;
+  font-size: 28px;
+  color: #e50000;
+  width: 590px;
+  text-align: left;
+}
+
+#wrap .container .top .right .main .price .add {
+  border: 1px solid #ccc;
+  line-height: 24px;
+  width: 76px;
+  padding: 0 10px;
+  margin-right: 10px;
+  color: #333;
+  position: relative;
+}
+
+#wrap .container .top .right .main .appdown {
+  display: inline-block;
+  padding: 0 10px 0 25px;
+  height: 22px;
+  line-height: 22px;
+  margin: 10px 0;
+  background: #e4393c url(../img/sm.png) no-repeat 10px center;
+  font-size: 12px;
+  color: #fff;
+}
+
+#wrap .container .top .right .main dl {
+  overflow: hidden;
+  font-size: 14px;
+}
+
+#wrap .container .top .right .main dl dt {
+  color: #999;
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  width: 90px;
+  border: 0;
+  color: #999;
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#wrap .container .top .right .main dl dd {
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  width: 310px;
+  border: 0;
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#wrap .container .top .right .main .dl_t dt {
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+#wrap .container .top .right .main .dl_t dd {
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+#wrap .container .top .right .main .dl_b dd {
+  width: 621px;
+}
+
+#wrap .container .bot {
+  overflow: hidden;
+}
+
+#wrap .container .bot .tabnav {
+  height: 50px;
+  border-bottom: 1px solid #0cb95f;
+  line-height: 50px;
+  background: #fff;
+}
+
+#wrap .container .bot .tabnav a {
+  height: 49px;
+  line-height: 50px;
+  position: relative;
+  display: block;
+  padding: 0 25px;
+  background: #f7f7f7;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  text-align: center;
+  float: left;
+  color: #333;
+  margin-right: 1px;
+}
+
+#wrap .container .bot .tabnav .active2 {
+  background: #0cb95f;
+  color: #fff;
+}
+
+#wrap .container .bot .item1 li {
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0 20px 0;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+#wrap .container .bot .item1 li img {
+  float: left;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+#wrap .container .bot .item1 li .xq {
+  float: left;
+  padding-left: 15px;
+  width: 360px;
+}
+
+#wrap .container .bot .item1 li .xq h3 {
+  line-height: 24px;
+}
+
+#wrap .container .bot .item1 li .xq p {
+  color: #999;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+#wrap .container .bot .item1 li .shop {
+  float: left;
+}
+
+#wrap .container .bot .item1 li .bot_btn {
+  float: right;
+  display: block;
+  width: 100px;
+  height: 24px;
+  background: #e50000;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#wrap .container .bot .item2 {
+  border: 1px solid #e5e5e5;
+  color: #999;
+  line-height: 40px;
+}
+
+#wrap .container .bot .item2 .title h2 {
+  font-size: 18px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  background: #f4f4f4;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#wrap .container .bot .item2 .title p {
+  color: #999;
+  line-height: 40px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+#wrap .container .bot .item2 dl dt {
+  padding-left: 15px;
+  line-height: 40px;
+  height: 40px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+  text-align: center;
+  background: #f4f4f4;
+  text-align: left;
+  color: #333;
+}
+
+#wrap .container .bot .item2 dl dd {
+  color: #333;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+#wrap .container .bot .item3 {
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+
+#wrap .container .bot .item3 h4 {
+  padding: 0 20px;
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+  background: #f4f4f4;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 40px;
+}
+
+#wrap .container .bot .item3 ul {
+  overflow: hidden;
+  padding: 20px;
+}
+
+#wrap .container .bot .item3 ul li {
+  width: 540px;
+  float: left;
+  padding-bottom: 5px;
+  margin-right: 33px;
+}
+
+#wrap .container .bot .item3 ul li p {
+  font-size: 12px;
+}
+
+#wrap .container .bot .item3 ul li .wen {
+  height: 16px;
+  line-height: 16px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  overflow: hidden;
+  color: #333;
+  font-weight: bold;
+}
+
+#wrap .container .bot .item3 ul li .da {
+  color: #666;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+#wrap .container .links {
+  float: left;
+  border: 1px solid #e5e5e5;
+  margin: 20px 0;
+}
+
+#wrap .container .links .container .lnav {
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 40px;
+  height: 40px;
+  background: #f4f4f4;
+}
+
+#wrap .container .links .container .lnav a {
+  float: left;
+  width: 137px;
+  font-size: 14px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+#wrap .container .links .container .lnav .active {
+  background: #fff;
+}
+
+#wrap .container .links .container .item {
+  padding: 20px 35px;
+  overflow: hidden;
+}
+
+#wrap .container .links .container .item a {
+  display: block;
+  float: left;
+  margin: 10px 0;
+  width: 110px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+#wrap .container .links .container .item a:hover {
+  color: #0cb95f;
+}
+
+#wrap .container .links .container .item:not(:first-child) {
+  display: none;
+}

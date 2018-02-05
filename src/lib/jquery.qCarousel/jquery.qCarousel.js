@@ -1,6 +1,6 @@
 ;(function($){
 	// $.prototype.lxCarousel = function(options){
-	$.fn.lxCarousel = function(options){
+	$.fn.qCarousel = function(options){
 		// 如何安全使用$：匿名函数传参
 		// 如何获取.box：this=>jquery对象
 
@@ -80,6 +80,7 @@
 
 				$this.append($ul);
 				
+				$this.append(`<span class="prev"> < </span><span class="next"> > </span>`);
 				move();
 			} 
 
