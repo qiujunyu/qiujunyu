@@ -221,6 +221,9 @@
                     line-height: 35px;
                     text-align: center;
                     font-size: 12px;
+                    a{
+                        color: #333;
+                    }
                 }
                 .search_menu{
                     display: none;
@@ -261,6 +264,7 @@
                     
                     float: left;
                     a{
+                        color: #333;
                         font-size: 12px;
                         padding: 0 12px;
                         border-right:1px solid #ccc;
@@ -287,7 +291,7 @@
     } 
 }
 .nav{
-
+    height: 50px;
     .container{
         position: relative;
         .mainnav{
@@ -330,6 +334,7 @@
             }
         }
         .classify{
+            display: none;
             height: 390px;
             width: 228px;
             position: absolute;
@@ -337,7 +342,8 @@
             top: 50px;
             z-index: 1000;
             .classify_menu{
-
+                display: none;
+                background: #fff;
                 .mrhf{
                     border-bottom: none;
                 }
@@ -372,6 +378,7 @@
                 }
             }
             .classify_list{
+                display: none;
                 width: 758px;
                 position: absolute;
                 left: 227px;
@@ -393,6 +400,7 @@
                             position:relative;
                             font-size: 12px;
                             margin: 5px 8px;
+                            color: #333;
                             i{
                                 display: block;
                                 height: 20px;

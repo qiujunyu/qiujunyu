@@ -258,6 +258,10 @@
   font-size: 12px;
 }
 
+.header .container .search form span a {
+  color: #333;
+}
+
 .header .container .search form .search_menu {
   display: none;
   width: 80px;
@@ -304,6 +308,7 @@
 }
 
 .header .container .search .hot li a {
+  color: #333;
   font-size: 12px;
   padding: 0 12px;
   border-right: 1px solid #ccc;
@@ -326,6 +331,10 @@
   height: 40px;
   background: url(../img/icons.png) no-repeat;
   background-position: -88px -262px;
+}
+
+.nav {
+  height: 50px;
 }
 
 .nav .container {
@@ -375,12 +384,18 @@
 }
 
 .nav .container .classify {
+  display: none;
   height: 390px;
   width: 228px;
   position: absolute;
   left: 0;
   top: 50px;
   z-index: 1000;
+}
+
+.nav .container .classify .classify_menu {
+  display: none;
+  background: #fff;
 }
 
 .nav .container .classify .classify_menu .mrhf {
@@ -417,6 +432,7 @@
 }
 
 .nav .container .classify .classify_list {
+  display: none;
   width: 758px;
   position: absolute;
   left: 227px;
@@ -444,6 +460,7 @@
   position: relative;
   font-size: 12px;
   margin: 5px 8px;
+  color: #333;
 }
 
 .nav .container .classify .classify_list .classitem li a i {

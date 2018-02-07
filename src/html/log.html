@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
         <link rel="stylesheet" type="text/css" href="../css/log.css" />
+        <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/log.js"></script>
     </head>
     <body>
         <div class="header_top_small">
@@ -81,11 +83,11 @@
                             </div>  
                             <div class="mid_mid">
                                 <span class="username">
-                                    <input type="text" />
+                                    <input type="text" id="username" />
                                     <i></i>
                                 </span>
                                 <span class="password">
-                                    <input type="text" />
+                                    <input type="text" id="password" />
                                     <i></i>
                                 </span>                           
                             </div>                     
@@ -95,7 +97,7 @@
                                 </div>
                                 <a href="javascript:void(0);">忘记密码？</a>
                             </div>
-                            <button>立即登录</button>
+                            <button id="dl">立即登录</button>
                             <div class="other">
                                 <p>使用其它方式登录 :</p>
                                 <a href="javascript:void(0);" class="others" style="background-position: -416px -142px;"></a>

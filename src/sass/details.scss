@@ -82,6 +82,7 @@
                         }
                     }
                     span{
+                        z-index: 99;
                         position: absolute;
                         top: 13px;
                         display:block;
@@ -290,6 +291,7 @@
                 }
             }
             .item2{
+                display: none;
                 border: 1px solid #e5e5e5;
                 color: #999;
                 line-height: 40px;
@@ -332,6 +334,7 @@
                 }
             }
             .item3{
+                display: none;
                 overflow: hidden;
                 border:1px solid #e5e5e5;
                 h4{
@@ -375,7 +378,7 @@
             }
         }
         .links{
-            float: left;
+            // float: left;
             border: 1px solid #e5e5e5;
             margin: 20px 0;
             .container{

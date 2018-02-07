@@ -1,5 +1,14 @@
 jQuery(function($){
-    // $('header').load('html/header.html');
+
+    // 载入头尾
+    $('header').load('html/header.html');
+    $('footer').load('html/footer.html');
+
+    // 返回顶部
+    $(".backTop").click(function() {
+      $("html,body").animate({scrollTop:0}, 500);
+    }); 
+
     // 大轮播图
     $('.banner_min').qCarousel({imgs:['img/banner1.jpg','img/banner2.jpg','img/banner3.jpg','img/banner4.png','img/banner5.png'],width:780,height:390});
     // 楼层轮播图
@@ -39,8 +48,8 @@ jQuery(function($){
 
             //获取页面滚走的距离
             var sTop = $(document).scrollTop();
-
-            if(sTop >= 700){
+            // console.log(sTop)
+            if(sTop >= 700 && sTop <= 5000){
                 $('#menu').fadeIn();
             }else{
                 $('#menu').fadeOut();
@@ -65,7 +74,7 @@ jQuery(function($){
         // 吸顶菜单
         if($(document).scrollTop() >= 500){
             $('.fix_top').fadeIn();
-            console.log(66)
+            // console.log(66)
         }else{
             $('.fix_top').fadeOut();
         }

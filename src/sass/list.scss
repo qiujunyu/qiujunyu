@@ -1,5 +1,5 @@
 #wrap{
-
+    overflow:hidden;
     .container{
 
         .left{
@@ -306,9 +306,72 @@
                         margin: 0 5px;
                     }
                 }
-                .goods_list{
-                    height: 3160px;
-                    width: 950px;
+            }
+            .goods_list{
+                // height: 3124px;
+                width: 950px;
+                margin-top: 20px;
+                ul{
+                    overflow: hidden;
+                    li{
+                        padding: 12px 0 ;
+                        height: 296px;
+                        float: left;
+                        margin-right: 16px;
+                        width: 221px;
+                        margin-bottom: 16px;
+                        // position: relative;
+                        z-index: 1;
+                        // overflow: visible;
+                        border: 1px solid #f5f5f5;
+                        text-align: center;
+                        img{
+                            width: 190px;
+                            height: 190px;
+                        }
+                        .price{
+                            height: 24px;
+                            color: #e50000;
+                            text-align: center;
+                            text-align: left;
+                            font-size: 18px;
+                            font-family: "\534E\6587\7EC6\9ED1",Arial;
+                            line-height: 24px;
+                            margin: 10px;
+                        }
+                        .name{
+                            text-align: left;
+                            display: block;
+                            overflow: hidden;
+                            margin-top: 5px;
+                            height: 20px;
+                            line-height: 20px;
+                            margin: 0 10px;
+                            margin-top: 3px;
+                            font-size: 14px;
+                        }
+                        .size{
+                            text-align: left;
+                            color: #999;
+                            margin: 0 10px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            height: 22px;
+                            line-height: 26px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            #page{
+                text-align: right;
+                span{
+                    display:inline-block;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border:1px solid #e5e5e5;
                 }
             }
         }

@@ -95,6 +95,7 @@
 }
 
 #wrap .container .top .left .img_min span {
+  z-index: 99;
   position: absolute;
   top: 13px;
   display: block;
@@ -315,6 +316,7 @@
 }
 
 #wrap .container .bot .item2 {
+  display: none;
   border: 1px solid #e5e5e5;
   color: #999;
   line-height: 40px;
@@ -356,6 +358,7 @@
 }
 
 #wrap .container .bot .item3 {
+  display: none;
   overflow: hidden;
   border: 1px solid #e5e5e5;
 }
@@ -405,7 +408,6 @@
 }
 
 #wrap .container .links {
-  float: left;
   border: 1px solid #e5e5e5;
   margin: 20px 0;
 }

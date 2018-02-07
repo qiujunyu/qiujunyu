@@ -1,3 +1,7 @@
+#wrap {
+  overflow: hidden;
+}
+
 #wrap .container .left {
   float: left;
   margin: 20px 20px 0 0;
@@ -333,9 +337,77 @@
   margin: 0 5px;
 }
 
-#wrap .container .right .filter .goods_list {
-  height: 3160px;
+#wrap .container .right .goods_list {
   width: 950px;
+  margin-top: 20px;
+}
+
+#wrap .container .right .goods_list ul {
+  overflow: hidden;
+}
+
+#wrap .container .right .goods_list ul li {
+  padding: 12px 0;
+  height: 296px;
+  float: left;
+  margin-right: 16px;
+  width: 221px;
+  margin-bottom: 16px;
+  z-index: 1;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+}
+
+#wrap .container .right .goods_list ul li img {
+  width: 190px;
+  height: 190px;
+}
+
+#wrap .container .right .goods_list ul li .price {
+  height: 24px;
+  color: #e50000;
+  text-align: center;
+  text-align: left;
+  font-size: 18px;
+  font-family: "\534E\6587\7EC6\9ED1",Arial;
+  line-height: 24px;
+  margin: 10px;
+}
+
+#wrap .container .right .goods_list ul li .name {
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  margin-top: 5px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 10px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+#wrap .container .right .goods_list ul li .size {
+  text-align: left;
+  color: #999;
+  margin: 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 22px;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+#wrap .container .right #page {
+  text-align: right;
+}
+
+#wrap .container .right #page span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
 }
 
 #wrap .container .links {

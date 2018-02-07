@@ -161,13 +161,14 @@
 .banner .banner_min {
   height: 390px;
   border: none;
+  margin-left: 345px;
 }
 
 .banner .sell {
   width: 180px;
   height: 100%;
   position: absolute;
-  right: 141px;
+  right: 118px;
   top: 0;
   z-index: 1000;
 }
@@ -288,6 +289,7 @@
 }
 
 .lift #menu ul li {
+  background: #fff;
   height: 78px;
   width: 40px;
   position: relative;
