@@ -206,6 +206,7 @@
   padding-left: 10px;
   font-weight: bold;
   border: 1px solid #e5e5e5;
+  background: #e5e5e5;
 }
 
 .wrap .container ul {
@@ -216,6 +217,19 @@
 .wrap .container ul li {
   overflow: hidden;
   padding: 10px;
+  position: relative;
+}
+
+.wrap .container ul li .del {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .wrap .container ul li .top {
@@ -256,12 +270,56 @@
   float: left;
 }
 
+.wrap .container ul li .bot .qty {
+  position: relative;
+}
+
+.wrap .container ul li .bot .qty i {
+  position: absolute;
+  width: 22px;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  top: -3px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.wrap .container ul li .bot .qty .more {
+  left: 45px;
+}
+
+.wrap .container ul li .bot .qty .less {
+  left: -17px;
+}
+
+.wrap .container ul li .bot .all_price {
+  color: red;
+}
+
 .wrap .container ul li:not(:last-child) {
   border-bottom: 1px solid #e5e5e5;
 }
 
 .wrap .container .total {
-  padding: 20px;
+  padding: 10px 20px;
+}
+
+.wrap .container .total .sub {
+  overflow: hidden;
+}
+
+.wrap .container .total .sub span {
+  float: right;
+  line-height: 45px;
+  border: 1px solid #e5e5e5;
+  width: 131px;
+  margin-top: 10px;
+  text-align: center;
+  background: red;
+  color: #fff;
+  cursor: pointer;
 }
 
 .wrap .container .total .p {
@@ -271,7 +329,7 @@
 }
 
 .wrap .container .total .p span {
-  width: 50px;
+  padding-left: 15px;
   height: 21px;
   float: right;
 }
