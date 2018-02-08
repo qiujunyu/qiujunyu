@@ -410,6 +410,10 @@
   border: 1px solid #e5e5e5;
 }
 
+#wrap .container .right #page .act {
+  background: #0cb95f;
+}
+
 #wrap .container .links {
   float: left;
   border: 1px solid #e5e5e5;

@@ -6,9 +6,9 @@
     $password = isset($_GET['password']) ? $_GET['password'] : '';
     // echo $username;
     // 密码md5加密
-    // $password = md5($password);
+    $password = md5($password);
 
-    $sql = "select * from text where username='$username' and password='$password'";
+    $sql = "select * from reg where username='$username' and password='$password'";
 
     // 获取查询结果
     $result = $conn->query($sql);
