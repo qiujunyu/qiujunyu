@@ -6,7 +6,7 @@
     background: #fff;
     width: 52px;
     z-index: 9997;
-    ul{
+    .top{
         // overflow: hidden;
         li:first-child{
             background-color: #0cb95f;
@@ -83,6 +83,43 @@
                     }
                 }
             }
+            .cart{
+                display: none;
+                overflow-y: scroll;
+                position: absolute;
+                border: 1px solid #e5e5e5;
+                // width: 155px;
+                height: 400px;
+                left: -175px;
+                top: -1px;
+                ul{
+
+                    li{
+                        background: #fff;
+                        padding: 5px;
+                        width: 155px;
+                        height: 100px;
+                        border: none;
+                        img{
+                            width: 50px;
+                            height: 50px;
+
+                        }
+                        div{
+                            display: inline-block;
+                            font-size: 10px;
+                            width: 88px;
+                            vertical-align: middle;
+                            font-size: 10px;
+                            display:inline-block;
+                        }
+
+                    }
+                    li:not(:last-child){
+                        border-bottom:1px solid #e5e5e5;
+                    }
+                }
+            }
         }
         li:hover a{
             display: block;
@@ -135,4 +172,5 @@
             }
         }
     }
+    
 }

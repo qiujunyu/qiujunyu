@@ -9,6 +9,7 @@
 
     // 判断是否已存在商品
     $data = $conn->query("select * from cart where idnum='$id'");
+    var_dump($data->num_rows);
     // 不存在则新加入后台数据
     if($data->num_rows == 0){
 
@@ -22,13 +23,20 @@
         }else{
             echo "fail";
         }
+    }else{
+        // 商品已存在，修改qty
+        $num = $conn->query("select qty from cart where idnum='$id'");
+        $res = $num->fetch_row();
+
+        $res = $res[0]+1;
+        $row = $conn->query("update cart set qty='$res' where idnum='$id'");
+
+        if($row){
+            echo "success2";
+        }else{
+            echo "fail2";
+        }
+
+        $num->close();
     }
-
-    // 存在则修改商品的qty
-    // if($data->num_rows > 0){
-    //     $res = $conn->query("select * from cart where idnum='$id'");
-    //     $row = $res->fetch_assoc();
-    //     echo json_encode($row,JSON_UNESCAPED_UNICODE);
-    // }
-
 ?>

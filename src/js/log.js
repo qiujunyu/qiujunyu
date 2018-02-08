@@ -20,4 +20,10 @@ jQuery(function($){
             alert('请输入账号和密码')
         } 
     })
+
+    // 跳转注册页面
+    $('.ljzc').click(function(){
+        location.href = '../html/reg.html';
+    }) 
+    
 });

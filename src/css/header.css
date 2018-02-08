@@ -107,6 +107,7 @@
   height: 20px;
   background: url(../img/icons.png) no-repeat;
   background-position: -121px 1px;
+  cursor: pointer;
 }
 
 .header_top .container .right li .line {
@@ -139,6 +140,7 @@
   height: 20px;
   background: url(../img/icons.png) no-repeat;
   background-position: -137px 1px;
+  cursor: pointer;
 }
 
 .header_top .container .right li .other {
@@ -183,6 +185,10 @@
   position: relative;
 }
 
+.header_top .container .right .person i {
+  cursor: pointer;
+}
+
 .header_top .container .right .person .menu {
   display: none;
   position: absolute;
@@ -190,11 +196,13 @@
   left: 0;
   background: #fff;
   border: 1px solid #ccc;
+  z-index: 9;
 }
 
 .header_top .container .right .person .menu i {
   background: url(../img/icons.png) no-repeat;
   background-position: -137px 1px;
+  cursor: pointer;
 }
 
 .header_top .container .right .car {

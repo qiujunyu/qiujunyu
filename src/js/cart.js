@@ -87,6 +87,16 @@
                         // console.log($money*$num)
                         $(this).parent().siblings('.all_price').text($money*$num);
                         $('.t_price').text($('.t_price').text()*1-$money*1);
+
+                        // 当前商品的id
+                        let $qtyid = $(this).parents('li').data('id');
+                        $.ajax({
+                            url: '../api/cart2.php',
+                            data: 'qtyid='+$qtyid+'&qtynum='+$num,
+                            success: function(){
+
+                            }
+                        })
                     }
 
                 })

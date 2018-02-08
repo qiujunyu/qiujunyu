@@ -1,4 +1,25 @@
 jQuery(function($){
+
+    // 个人中心
+    $('.person .p_open').click(function(){
+        $('.person .menu').show();    
+        // console.log(66)      
+    })
+     $('.person .p_off').click(function(){
+        $('.person .menu').hide();          
+    })
+
+     // 网站导航
+    $('.daohang .d_open').click(function(){
+        $('.daohang .other').show();    
+        $('.daohang .line').show();    
+        // console.log(66)      
+    })
+     $('.daohang .d_off').click(function(){
+        $('.daohang .other').hide();     
+        $('.daohang .line').hide();      
+    })
+
     // 二级导航
     $('.navall').on('click',function(){
         console.log($(666))

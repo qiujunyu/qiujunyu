@@ -107,8 +107,9 @@
                     $.ajax({
                         url: '../api/cart.php',
                         data: `id=${res.id}&name=${res.name}&price=${res.price}&img=${res.img1}`,
-                        success:function(){
-                            console.log('ok');
+                        success:function(data){
+                            // let res = JSON.parse(data);
+                            
                         }
                     })
                 });
@@ -117,6 +118,7 @@
 
         // 飞入购物车
         $('.main .add').on('click',function(){
+
             $img = $('.img_show img')
             var $copyImg = $img.clone();
             $fImg = $($copyImg[0]);
@@ -132,7 +134,7 @@
             // 飞入购物车动画
             $fImg.animate({
                 left:1370,
-                top:258,
+                top:$('.fix').offset().top + 60,
                 width:20,
                 height:20
             },1500,function(){

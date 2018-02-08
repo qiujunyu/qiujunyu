@@ -88,6 +88,7 @@
                 height: 20px;
                 background: url(../img/icons.png) no-repeat;
                 background-position: -121px 1px;
+                cursor:pointer;
             }
             .line{
                 position: absolute;
@@ -116,6 +117,7 @@
                     height: 20px;
                     background: url(../img/icons.png) no-repeat;
                     background-position: -137px 1px;
+                    cursor:pointer;
                 }
             }
             .other{
@@ -154,6 +156,9 @@
         }
         .person{
             position: relative;
+            i{
+                cursor:pointer;
+            }
             .menu{
                 display:none;
                 position: absolute;
@@ -161,9 +166,11 @@
                 left:0;
                 background: #fff;
                 border: 1px solid #ccc;
+                z-index: 9;
                 i{
                     background: url(../img/icons.png) no-repeat;
                     background-position: -137px 1px;
+                    cursor:pointer;
                 }
             }
         }

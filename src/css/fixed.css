@@ -7,12 +7,12 @@
   z-index: 9997;
 }
 
-.fix ul li:first-child {
+.fix .top li:first-child {
   background-color: #0cb95f;
   border-color: #0cb95f;
 }
 
-.fix ul li {
+.fix .top li {
   height: 52px;
   width: 52px;
   background: url(../img/icons.png);
@@ -23,7 +23,7 @@
   position: relative;
 }
 
-.fix ul li a {
+.fix .top li a {
   display: none;
   cursor: pointer;
   height: 30px;
@@ -34,7 +34,7 @@
   margin: 0 auto;
 }
 
-.fix ul li .num {
+.fix .top li .num {
   width: 20px;
   height: 20px;
   line-height: 20px;
@@ -51,7 +51,7 @@
   opacity: .8;
 }
 
-.fix ul li .contact {
+.fix .top li .contact {
   position: absolute;
   right: 51px;
   top: -1px;
@@ -60,20 +60,20 @@
   padding-right: 10px;
 }
 
-.fix ul li .contact .contact_min {
+.fix .top li .contact .contact_min {
   background: #0cb95f;
   padding: 8px;
   width: 142px;
 }
 
-.fix ul li .contact .contact_min p {
+.fix .top li .contact .contact_min p {
   color: #fff;
   line-height: 1;
   font-size: 12px;
   position: relative;
 }
 
-.fix ul li .contact .contact_min p img {
+.fix .top li .contact .contact_min p img {
   position: absolute;
   top: -4px;
   right: 2px;
@@ -82,7 +82,7 @@
   width: 20px;
 }
 
-.fix ul li .contact .contact_min a {
+.fix .top li .contact .contact_min a {
   display: block;
   height: 35px;
   width: 126px;
@@ -92,22 +92,58 @@
   margin-top: 8px;
 }
 
-.fix ul li:hover a {
+.fix .top li .cart {
+  display: none;
+  overflow-y: scroll;
+  position: absolute;
+  border: 1px solid #e5e5e5;
+  height: 400px;
+  left: -175px;
+  top: -1px;
+}
+
+.fix .top li .cart ul li {
+  background: #fff;
+  padding: 5px;
+  width: 155px;
+  height: 100px;
+  border: none;
+}
+
+.fix .top li .cart ul li img {
+  width: 50px;
+  height: 50px;
+}
+
+.fix .top li .cart ul li div {
+  display: inline-block;
+  font-size: 10px;
+  width: 88px;
+  vertical-align: middle;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.fix .top li .cart ul li:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.fix .top li:hover a {
   display: block;
   background: #0cb95f;
   color: #fff;
   border-color: #0cb95f;
 }
 
-.fix ul li:hover {
+.fix .top li:hover {
   background-color: #0cb95f;
 }
 
-.fix ul li:hover i {
+.fix .top li:hover i {
   display: none;
 }
 
-.fix ul .wx {
+.fix .top .wx {
   position: absolute;
   right: 73px;
   top: 0;
@@ -123,12 +159,12 @@
   display: none;
 }
 
-.fix ul .wx img {
+.fix .top .wx img {
   width: 80px;
   height: 80px;
 }
 
-.fix ul .app {
+.fix .top .app {
   display: none;
   position: absolute;
   right: 73px;
@@ -144,7 +180,7 @@
   text-align: center;
 }
 
-.fix ul .app img {
+.fix .top .app img {
   width: 80px;
   height: 80px;
 }
