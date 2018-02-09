@@ -113,7 +113,13 @@
                             font-size: 10px;
                             display:inline-block;
                         }
-
+                        .name{
+                            height: 32px;
+                            // display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 3;
+                            overflow: hidden;
+                        }
                     }
                     li:not(:last-child){
                         border-bottom:1px solid #e5e5e5;

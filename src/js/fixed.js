@@ -37,6 +37,7 @@
                 let res = JSON.parse(data);
                 res1 = res.data;
                 // 写入购物车信息
+                console.log($('.cart ul'))
                 $('.cart ul')[0].innerHTML = res1.map(item=>{
                     return `
                             <li data-id="${item[1]}">

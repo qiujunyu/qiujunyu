@@ -124,6 +124,13 @@
   display: inline-block;
 }
 
+.fix .top li .cart ul li .name {
+  height: 32px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
 .fix .top li .cart ul li:not(:last-child) {
   border-bottom: 1px solid #e5e5e5;
 }

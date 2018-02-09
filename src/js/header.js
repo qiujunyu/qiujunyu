@@ -20,6 +20,14 @@ jQuery(function($){
         $('.daohang .line').hide();      
     })
 
+     // 搜索选择
+     $('.search .current').click(function(){
+        $('.search_menu').show();
+     })
+     $('.search .current2').click(function(){
+        $('.search_menu').hide();
+     })
+
     // 二级导航
     $('.navall').on('click',function(){
         console.log($(666))
